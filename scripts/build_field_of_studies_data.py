@@ -515,7 +515,7 @@ export interface FieldOfStudyTopic {{
   countryData: CountryFieldData[];
 }}
 
-export const FIELD_OF_STUDIES_DATASET: FieldOfStudyTopic[] = {json.dumps(dataset, indent=2)};
+export const FIELD_OF_STUDIES_DATASET: FieldOfStudyTopic[] = {json.dumps(dataset)};
 """
 
 with open("src/data/fieldOfStudiesData.ts", "w") as f:
