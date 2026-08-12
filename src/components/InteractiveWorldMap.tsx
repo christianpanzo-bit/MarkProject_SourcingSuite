@@ -21,7 +21,13 @@ import {
   Filter,
   CheckCircle2,
   Building2,
-  TrendingUp
+  TrendingUp,
+  ZoomIn,
+  ZoomOut,
+  Maximize2,
+  Minimize2,
+  Move,
+  Crosshair
 } from 'lucide-react';
 
 interface InteractiveWorldMapProps {
@@ -234,6 +240,139 @@ export const InteractiveWorldMap: React.FC<InteractiveWorldMapProps> = ({
   const [activeCountry, setActiveCountry] = useState<Country | null>(null);
   const [mapSearch, setMapSearch] = useState<string>('');
 
+  // Zoom, Pan & Map Expansion State
+  const [zoomLevel, setZoomLevel] = useState<number>(1);
+  const [panOffset, setPanOffset] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
+  const [isMapExpanded, setIsMapExpanded] = useState<boolean>(false);
+  const [isDragging, setIsDragging] = useState<boolean>(false);
+  const [dragStart, setDragStart] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
+
+  const REGION_ZOOM_PRESETS: { [key in Region | 'All']: { zoom: number; x: number; y: number } } = {
+    All: { zoom: 1, x: 0, y: 0 },
+    Europe: { zoom: 2.5, x: 2, y: -18 },
+    Asia: { zoom: 1.9, x: 22, y: -8 },
+    Africa: { zoom: 2.1, x: 2, y: 8 },
+    Americas: { zoom: 1.7, x: -24, y: 2 },
+    Oceania: { zoom: 2.3, x: 34, y: 20 },
+  };
+
+  const handleSelectRegion = (reg: Region | 'All') => {
+    setSelectedRegion(reg);
+    const preset = REGION_ZOOM_PRESETS[reg];
+    if (preset) {
+      setZoomLevel(preset.zoom);
+      setPanOffset({ x: preset.x, y: preset.y });
+    }
+  };
+
+  const handleZoomIn = () => {
+    setZoomLevel((prev) => Math.min(Number((prev + 0.5).toFixed(1)), 8));
+  };
+
+  const handleZoomOut = () => {
+    setZoomLevel((prev) => {
+      const next = Math.max(Number((prev - 0.5).toFixed(1)), 1);
+      if (next === 1) setPanOffset({ x: 0, y: 0 });
+      return next;
+    });
+  };
+
+  const handleResetZoom = () => {
+    setZoomLevel(1);
+    setPanOffset({ x: 0, y: 0 });
+  };
+
+  const handleFocusCountryOnMap = (c: Country) => {
+    setZoomLevel(3.5);
+    const targetX = c.coordinates.x - 50;
+    const targetY = c.coordinates.y - 42.5;
+    setPanOffset({ x: targetX, y: targetY });
+    setActiveCountry(c);
+    setHoveredCountry(c);
+  };
+
+  const viewBox = useMemo(() => {
+    const baseW = 100;
+    const baseH = 85;
+    const w = baseW / zoomLevel;
+    const h = baseH / zoomLevel;
+
+    const centerX = (baseW - w) / 2 + panOffset.x;
+    const centerY = (baseH - h) / 2 + panOffset.y;
+
+    const minX = -15;
+    const maxX = baseW - w + 15;
+    const minY = -15;
+    const maxY = baseH - h + 15;
+
+    const clampedX = Math.max(minX, Math.min(maxX, centerX));
+    const clampedY = Math.max(minY, Math.min(maxY, centerY));
+
+    return `${clampedX} ${clampedY} ${w} ${h}`;
+  }, [zoomLevel, panOffset]);
+
+  const handleMouseDown = (e: React.MouseEvent<SVGSVGElement>) => {
+    if (e.button !== 0) return;
+    setIsDragging(true);
+    setDragStart({ x: e.clientX, y: e.clientY });
+  };
+
+  const handleMouseMove = (e: React.MouseEvent<SVGSVGElement>) => {
+    if (!isDragging) return;
+    const svg = e.currentTarget;
+    const rect = svg.getBoundingClientRect();
+    const scaleX = 100 / (rect.width * zoomLevel);
+    const scaleY = 85 / (rect.height * zoomLevel);
+
+    const dx = (e.clientX - dragStart.x) * scaleX;
+    const dy = (e.clientY - dragStart.y) * scaleY;
+
+    setPanOffset((prev) => ({
+      x: prev.x - dx,
+      y: prev.y - dy,
+    }));
+
+    setDragStart({ x: e.clientX, y: e.clientY });
+  };
+
+  const handleMouseUp = () => setIsDragging(false);
+
+  const handleTouchStart = (e: React.TouchEvent<SVGSVGElement>) => {
+    if (e.touches.length === 1) {
+      setIsDragging(true);
+      setDragStart({ x: e.touches[0].clientX, y: e.touches[0].clientY });
+    }
+  };
+
+  const handleTouchMove = (e: React.TouchEvent<SVGSVGElement>) => {
+    if (!isDragging || e.touches.length !== 1) return;
+    const svg = e.currentTarget;
+    const rect = svg.getBoundingClientRect();
+    const scaleX = 100 / (rect.width * zoomLevel);
+    const scaleY = 85 / (rect.height * zoomLevel);
+
+    const dx = (e.touches[0].clientX - dragStart.x) * scaleX;
+    const dy = (e.touches[0].clientY - dragStart.y) * scaleY;
+
+    setPanOffset((prev) => ({
+      x: prev.x - dx,
+      y: prev.y - dy,
+    }));
+
+    setDragStart({ x: e.touches[0].clientX, y: e.touches[0].clientY });
+  };
+
+  const handleTouchEnd = () => setIsDragging(false);
+
+  const handleWheel = (e: React.WheelEvent<SVGSVGElement>) => {
+    e.preventDefault();
+    if (e.deltaY < 0) {
+      handleZoomIn();
+    } else {
+      handleZoomOut();
+    }
+  };
+
   // Global Language Heatmap State
   const uniqueLanguages = useMemo(() => getAllUniqueLanguages(), []);
   const [selectedLanguage, setSelectedLanguage] = useState<string>(DEFAULT_HEAT_LANGUAGE);
@@ -348,6 +487,7 @@ export const InteractiveWorldMap: React.FC<InteractiveWorldMapProps> = ({
     setLanguageSearch('');
     setSelectedCountryCode(DEFAULT_HEAT_COUNTRY);
     setAiBreakdown(null);
+    handleResetZoom();
   };
 
   // Generate AI sub-regional heatmap for any selected country
@@ -492,7 +632,7 @@ export const InteractiveWorldMap: React.FC<InteractiveWorldMapProps> = ({
               {regions.map((reg) => (
                 <button
                   key={reg}
-                  onClick={() => setSelectedRegion(reg)}
+                  onClick={() => handleSelectRegion(reg)}
                   className={`text-xs font-bold px-2 py-1 rounded-lg transition ${
                     selectedRegion === reg
                       ? 'bg-[#4B286D] text-white shadow-xs'
@@ -606,19 +746,45 @@ export const InteractiveWorldMap: React.FC<InteractiveWorldMapProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           
           {/* SVG MAP CANVAS */}
-          <div className="lg:col-span-2 bg-slate-950 p-6 rounded-2xl border border-slate-800 shadow-xl relative overflow-hidden flex flex-col justify-between">
-            <div className="flex items-center justify-between mb-3 text-xs text-slate-400 relative z-10">
-              <span className="font-semibold text-slate-200 flex items-center gap-2">
-                <Compass className="w-4 h-4 text-indigo-400" />
-                {subMode === 'global_heatmap'
-                  ? `Heat Dominance Map for: ${selectedLanguage}`
-                  : `Showing ${filteredCountries.length} countries (${selectedRegion} Region)`}
-              </span>
-              <span className="text-[11px] text-slate-400">Hover pin or landmass to inspect</span>
+          <div className={`${isMapExpanded ? 'lg:col-span-3' : 'lg:col-span-2'} bg-slate-950 p-4 sm:p-6 rounded-2xl border border-slate-800 shadow-xl relative overflow-hidden flex flex-col justify-between transition-all duration-300`}>
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-3 text-xs text-slate-400 relative z-10">
+              <div className="flex items-center gap-2">
+                <Compass className="w-4 h-4 text-indigo-400 shrink-0" />
+                <span className="font-semibold text-slate-200">
+                  {subMode === 'global_heatmap'
+                    ? `Heat Dominance Map for: ${selectedLanguage}`
+                    : `Showing ${filteredCountries.length} countries (${selectedRegion} Region)`}
+                </span>
+                <span className="hidden sm:inline-block px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800 text-[10px] font-bold">
+                  Zoom: {Math.round(zoomLevel * 100)}%
+                </span>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setIsMapExpanded(!isMapExpanded)}
+                  className="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-1.5 border border-slate-700"
+                  title={isMapExpanded ? "Collapse to Split View" : "Expand Map View"}
+                >
+                  {isMapExpanded ? <Minimize2 className="w-3.5 h-3.5 text-amber-400" /> : <Maximize2 className="w-3.5 h-3.5 text-indigo-400" />}
+                  <span>{isMapExpanded ? "Split View" : "Expand Map"}</span>
+                </button>
+              </div>
             </div>
 
-            <div className="relative w-full aspect-[2/1] bg-slate-900 rounded-xl border border-slate-800/90 overflow-hidden shadow-inner flex items-center justify-center p-2">
-              <svg viewBox="0 0 100 85" className="w-full h-full relative z-0">
+            <div className={`relative w-full ${isMapExpanded ? 'h-[560px] sm:h-[660px] lg:h-[760px]' : 'h-[460px] sm:h-[540px] lg:h-[620px]'} bg-slate-900 rounded-xl border border-slate-800/90 overflow-hidden shadow-inner flex items-center justify-center p-1 transition-all duration-300 group`}>
+              <svg
+                viewBox={viewBox}
+                onMouseDown={handleMouseDown}
+                onMouseMove={handleMouseMove}
+                onMouseUp={handleMouseUp}
+                onMouseLeave={handleMouseUp}
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+                onWheel={handleWheel}
+                className={`w-full h-full relative z-0 select-none ${isDragging ? 'cursor-grabbing' : zoomLevel > 1 ? 'cursor-grab' : 'cursor-crosshair'}`}
+              >
                 <defs>
                   <pattern id="mapGridConsolidated" width="10" height="10" patternUnits="userSpaceOnUse">
                     <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#1e293b" strokeWidth="0.15" />
@@ -657,13 +823,19 @@ export const InteractiveWorldMap: React.FC<InteractiveWorldMapProps> = ({
                     ? getHeatColor(heatInfo.percentage).fill
                     : isHovered ? '#10b981' : '#818cf8';
 
+                  const pinRadius = isHovered ? (3.2 / Math.sqrt(zoomLevel)) : (2.0 / Math.sqrt(zoomLevel));
+                  const pingRadius = (5.5 / Math.sqrt(zoomLevel));
+                  const textOffset = -3.5 / Math.sqrt(zoomLevel);
+                  const textSize = isHovered ? Math.max(2.0, 3.2 / Math.sqrt(zoomLevel)) : Math.max(1.5, 2.4 / Math.sqrt(zoomLevel));
+
                   return (
                     <g
                       key={c.code}
                       transform={`translate(${c.coordinates.x}, ${c.coordinates.y})`}
                       className="cursor-pointer transition-transform duration-200"
-                      onClick={() => {
-                        setActiveCountry(c);
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleFocusCountryOnMap(c);
                         onSelectCountry(c);
                       }}
                       onMouseEnter={() => setHoveredCountry(c)}
@@ -671,25 +843,26 @@ export const InteractiveWorldMap: React.FC<InteractiveWorldMapProps> = ({
                     >
                       {isHovered && (
                         <circle
-                          r="4.5"
+                          r={pingRadius}
                           fill={heatColor}
                           className="opacity-50 animate-ping"
                         />
                       )}
 
                       <circle
-                        r={isHovered ? '2.8' : '1.8'}
+                        r={pinRadius}
                         fill={heatColor}
                         stroke="#020617"
-                        strokeWidth="0.5"
+                        strokeWidth={0.5 / Math.sqrt(zoomLevel)}
                         className="transition-all duration-200"
                       />
 
                       <text
-                        y="-3"
+                        y={textOffset}
                         textAnchor="middle"
-                        className={`text-[2.2px] font-bold tracking-tight transition-all select-none ${
-                          isHovered ? 'fill-emerald-300 font-extrabold text-[3px]' : 'fill-slate-200 opacity-80'
+                        style={{ fontSize: `${textSize}px` }}
+                        className={`font-bold tracking-tight transition-all select-none ${
+                          isHovered ? 'fill-emerald-300 font-extrabold' : 'fill-slate-200 opacity-80'
                         }`}
                       >
                         {c.flag} {c.code}
@@ -699,7 +872,45 @@ export const InteractiveWorldMap: React.FC<InteractiveWorldMapProps> = ({
                 })}
               </svg>
 
-              <div className="absolute bottom-3 right-3 bg-slate-900/80 backdrop-blur border border-slate-800 px-3 py-1.5 rounded-xl text-[10px] text-slate-400 flex items-center gap-3">
+              {/* FLOATING ZOOM CONTROLS (Top Right of Canvas) */}
+              <div className="absolute top-3 right-3 flex flex-col gap-1.5 z-20">
+                <div className="bg-slate-950/90 backdrop-blur border border-slate-700/80 p-1 rounded-xl shadow-lg flex flex-col gap-1">
+                  <button
+                    onClick={handleZoomIn}
+                    className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white transition flex items-center justify-center text-xs font-bold"
+                    title="Zoom In (+)"
+                  >
+                    <ZoomIn className="w-4 h-4 text-emerald-400" />
+                  </button>
+                  <button
+                    onClick={handleZoomOut}
+                    className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white transition flex items-center justify-center text-xs font-bold"
+                    title="Zoom Out (-)"
+                  >
+                    <ZoomOut className="w-4 h-4 text-amber-400" />
+                  </button>
+                  <button
+                    onClick={handleResetZoom}
+                    className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white transition flex items-center justify-center text-xs font-bold"
+                    title="Reset Zoom & Pan"
+                  >
+                    <RotateCcw className="w-4 h-4 text-indigo-400" />
+                  </button>
+                </div>
+
+                <div className="bg-slate-950/90 backdrop-blur border border-slate-700/80 px-2 py-1 rounded-lg text-[10px] font-mono text-center text-indigo-300 shadow-md">
+                  {Math.round(zoomLevel * 100)}%
+                </div>
+              </div>
+
+              {/* FLOATING HINT OVERLAY (Bottom Left) */}
+              <div className="absolute bottom-3 left-3 bg-slate-950/80 backdrop-blur border border-slate-800 px-3 py-1.5 rounded-xl text-[10px] text-slate-300 flex items-center gap-2 z-10 pointer-events-none">
+                <Move className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
+                <span>{zoomLevel > 1 ? 'Click & drag or scroll wheel to pan map' : 'Scroll wheel or + / - to zoom in'}</span>
+              </div>
+
+              {/* FLOATING LEGEND (Bottom Right) */}
+              <div className="absolute bottom-3 right-3 bg-slate-900/80 backdrop-blur border border-slate-800 px-3 py-1.5 rounded-xl text-[10px] text-slate-400 flex items-center gap-3 z-10">
                 <span className="flex items-center gap-1">
                   <span className="w-2 h-2 rounded-full bg-indigo-400" /> Country Marker
                 </span>
