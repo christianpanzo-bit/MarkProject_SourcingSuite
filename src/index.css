@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --telus-purple: #4B286D;
+    --telus-purple-dark: #371B54;
+    --telus-purple-light: #F4EFF9;
+    --telus-purple-hover: #ECE3F4;
+    --telus-green: #66CC00;
+    --telus-green-dark: #2B8000;
+    --telus-green-light: #F0FAEC;
+    --telus-gray-bg: #F8F6FA;
+    --telus-text-dark: #2A2C2E;
+  }
+}
+
+.bg-telus-purple {
+  background-color: #4B286D;
+}
+
+.hover\:bg-telus-purple-dark:hover {
+  background-color: #371B54;
+}
+
+.text-telus-purple {
+  color: #4B286D;
+}
+
+.border-telus-purple {
+  border-color: #4B286D;
+}
+
+.bg-telus-green {
+  background-color: #66CC00;
+}
+
+.bg-telus-green-dark {
+  background-color: #2B8000;
+}
+
+.hover\:bg-telus-green-dark:hover {
+  background-color: #236800;
+}
+
+.text-telus-green-dark {
+  color: #2B8000;
+}
+
+.border-telus-green {
+  border-color: #66CC00;
+}
+
+/* Custom scrollbar for vertical tab list */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1ecf6;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c5b8d6;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #4B286D;
+}
+

@@ -1,0 +1,3578 @@
+{
+  "DZ": {
+    "code": "DZ",
+    "name": "Algeria",
+    "nativeName": "الجزائر / Dzayer",
+    "capital": "Algiers",
+    "population": 44900000,
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": [
+      "Arabic (Algerian)",
+      "Tamazight (Berber)",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "AO": {
+    "code": "AO",
+    "name": "Angola",
+    "nativeName": "Angola",
+    "capital": "Luanda",
+    "population": 35600000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "Portuguese",
+      "Umbundu"
+    ],
+    "subdivisions": []
+  },
+  "BJ": {
+    "code": "BJ",
+    "name": "Benin",
+    "nativeName": "Bénin",
+    "capital": "Porto-Novo",
+    "population": 13300000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "French",
+      "Fon"
+    ],
+    "subdivisions": []
+  },
+  "BW": {
+    "code": "BW",
+    "name": "Botswana",
+    "nativeName": "Botswana",
+    "capital": "Gaborone",
+    "population": 2600000,
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "Setswana",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "BF": {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "nativeName": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "population": 22600000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "Mooré",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "BI": {
+    "code": "BI",
+    "name": "Burundi",
+    "nativeName": "Uburundi",
+    "capital": "Gitega",
+    "population": 12800000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Kirundi",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "CV": {
+    "code": "CV",
+    "name": "Cabo Verde",
+    "nativeName": "Cabo Verde",
+    "capital": "Praia",
+    "population": 590000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "Portuguese",
+      "Cabo Verdean Creole"
+    ],
+    "subdivisions": []
+  },
+  "CM": {
+    "code": "CM",
+    "name": "Cameroon",
+    "nativeName": "Cameroun / Cameroon",
+    "capital": "Yaoundé",
+    "population": 27900000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "CF": {
+    "code": "CF",
+    "name": "Central African Republic",
+    "nativeName": "Centrafrique / Ködrö tî Bêafrîka",
+    "capital": "Bangui",
+    "population": 5500000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "Sango",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "TD": {
+    "code": "TD",
+    "name": "Chad",
+    "nativeName": "Tchad / تشاد",
+    "capital": "N'Djamena",
+    "population": 17700000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "French",
+      "Chadian Arabic"
+    ],
+    "subdivisions": []
+  },
+  "KM": {
+    "code": "KM",
+    "name": "Comoros",
+    "nativeName": "Komori / Comores",
+    "capital": "Moroni",
+    "population": 836000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Comorian (Shikomor)",
+      "Arabic",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "CG": {
+    "code": "CG",
+    "name": "Congo (Brazzaville)",
+    "nativeName": "Congo-Brazzaville",
+    "capital": "Brazzaville",
+    "population": 5900000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "French",
+      "Lingala",
+      "Kituba"
+    ],
+    "subdivisions": []
+  },
+  "CD": {
+    "code": "CD",
+    "name": "DR Congo (Kinshasa)",
+    "nativeName": "République Démocratique du Congo",
+    "capital": "Kinshasa",
+    "population": 99000000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "French",
+      "Lingala",
+      "Swahili"
+    ],
+    "subdivisions": []
+  },
+  "DJ": {
+    "code": "DJ",
+    "name": "Djibouti",
+    "nativeName": "Djibouti / جيبوتي",
+    "capital": "Djibouti",
+    "population": 1120000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Somali",
+      "Afar",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "EG": {
+    "code": "EG",
+    "name": "Egypt",
+    "nativeName": "مصر",
+    "capital": "Cairo",
+    "population": 109000000,
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": [
+      "Egyptian Arabic",
+      "Coptic"
+    ],
+    "subdivisions": []
+  },
+  "GQ": {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "nativeName": "Guinea Ecuatorial",
+    "capital": "Malabo",
+    "population": 1670000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "Spanish",
+      "Fang"
+    ],
+    "subdivisions": []
+  },
+  "ER": {
+    "code": "ER",
+    "name": "Eritrea",
+    "nativeName": "ኤርትራ / إرتريا",
+    "capital": "Asmara",
+    "population": 3600000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Tigrinya",
+      "Tigre"
+    ],
+    "subdivisions": []
+  },
+  "SZ": {
+    "code": "SZ",
+    "name": "Eswatini",
+    "nativeName": "eSwatini",
+    "capital": "Mbabane",
+    "population": 1200000,
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "siSwati",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "ET": {
+    "code": "ET",
+    "name": "Ethiopia",
+    "nativeName": "ኢትዮጵያ",
+    "capital": "Addis Ababa",
+    "population": 123000000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Amharic",
+      "Oromo"
+    ],
+    "subdivisions": []
+  },
+  "GA": {
+    "code": "GA",
+    "name": "Gabon",
+    "nativeName": "Gabon",
+    "capital": "Libreville",
+    "population": 2380000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "French",
+      "Fang"
+    ],
+    "subdivisions": []
+  },
+  "GM": {
+    "code": "GM",
+    "name": "Gambia",
+    "nativeName": "The Gambia",
+    "capital": "Banjul",
+    "population": 2700000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "English",
+      "Mandinka",
+      "Wolof"
+    ],
+    "subdivisions": []
+  },
+  "GH": {
+    "code": "GH",
+    "name": "Ghana",
+    "nativeName": "Ghana",
+    "capital": "Accra",
+    "population": 33400000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "English",
+      "Akan (Twi/Fante)"
+    ],
+    "subdivisions": []
+  },
+  "GN": {
+    "code": "GN",
+    "name": "Guinea",
+    "nativeName": "Guinée",
+    "capital": "Conakry",
+    "population": 13800000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "French",
+      "Pular (Fula)",
+      "Maninka"
+    ],
+    "subdivisions": []
+  },
+  "GW": {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "nativeName": "Guiné-Bissau",
+    "capital": "Bissau",
+    "population": 2060000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "Portuguese",
+      "Upper Guinea Creole"
+    ],
+    "subdivisions": []
+  },
+  "CI": {
+    "code": "CI",
+    "name": "Ivory Coast",
+    "nativeName": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "population": 29300000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "French",
+      "Baoulé",
+      "Nouchi"
+    ],
+    "subdivisions": []
+  },
+  "KE": {
+    "code": "KE",
+    "name": "Kenya",
+    "nativeName": "Kenya",
+    "capital": "Nairobi",
+    "population": 54000000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Swahili",
+      "English",
+      "Kikuyu"
+    ],
+    "subdivisions": []
+  },
+  "LS": {
+    "code": "LS",
+    "name": "Lesotho",
+    "nativeName": "Lesotho",
+    "capital": "Maseru",
+    "population": 2300000,
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "Sesotho",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "LR": {
+    "code": "LR",
+    "name": "Liberia",
+    "nativeName": "Liberia",
+    "capital": "Monrovia",
+    "population": 5300000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "English",
+      "Liberian Kreyol"
+    ],
+    "subdivisions": []
+  },
+  "LY": {
+    "code": "LY",
+    "name": "Libya",
+    "nativeName": "ليبيا",
+    "capital": "Tripoli",
+    "population": 6800000,
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": [
+      "Arabic (Libyan)",
+      "Tamazight"
+    ],
+    "subdivisions": []
+  },
+  "MG": {
+    "code": "MG",
+    "name": "Madagascar",
+    "nativeName": "Madagasikara / Madagascar",
+    "capital": "Antananarivo",
+    "population": 29600000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Malagasy",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "MW": {
+    "code": "MW",
+    "name": "Malawi",
+    "nativeName": "Malawi",
+    "capital": "Lilongwe",
+    "population": 20400000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Chichewa",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "ML": {
+    "code": "ML",
+    "name": "Mali",
+    "nativeName": "Mali",
+    "capital": "Bamako",
+    "population": 22600000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "Bambara",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "MR": {
+    "code": "MR",
+    "name": "Mauritania",
+    "nativeName": "موريتانيا / Mauritanie",
+    "capital": "Nouakchott",
+    "population": 4700000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "Hassaniya Arabic",
+      "Pulaar"
+    ],
+    "subdivisions": []
+  },
+  "MU": {
+    "code": "MU",
+    "name": "Mauritius",
+    "nativeName": "Maurice / Mauritius",
+    "capital": "Port Louis",
+    "population": 1260000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Mauritian Creole",
+      "French",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "MA": {
+    "code": "MA",
+    "name": "Morocco",
+    "nativeName": "المغرب / ⵍⵎⵖⵔⵉⴱ",
+    "capital": "Rabat",
+    "population": 37000000,
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": [
+      "Moroccan Arabic (Darija)",
+      "Tamazight (Berber)",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "MZ": {
+    "code": "MZ",
+    "name": "Mozambique",
+    "nativeName": "Moçambique",
+    "capital": "Maputo",
+    "population": 33000000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Portuguese",
+      "Emakhuwa"
+    ],
+    "subdivisions": []
+  },
+  "NA": {
+    "code": "NA",
+    "name": "Namibia",
+    "nativeName": "Namibia",
+    "capital": "Windhoek",
+    "population": 2600000,
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "English",
+      "Khoekhoegowab (Nama/Damara)",
+      "Afrikaans"
+    ],
+    "subdivisions": []
+  },
+  "NE": {
+    "code": "NE",
+    "name": "Niger",
+    "nativeName": "Niger",
+    "capital": "Niamey",
+    "population": 26000000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "Hausa",
+      "Zarma"
+    ],
+    "subdivisions": []
+  },
+  "NG": {
+    "code": "NG",
+    "name": "Nigeria",
+    "nativeName": "Nigeria",
+    "capital": "Abuja",
+    "population": 223000000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "English",
+      "Nigerian Pidgin",
+      "Hausa",
+      "Yoruba",
+      "Igbo"
+    ],
+    "subdivisions": [
+      {
+        "name": "Lagos & Southwestern States",
+        "capitalOrCity": "Lagos / Ibadan",
+        "primaryLang": "Yoruba & Nigerian Pidgin",
+        "secondaryLang": "English"
+      },
+      {
+        "name": "Kano & Northern States",
+        "capitalOrCity": "Kano / Kaduna",
+        "primaryLang": "Hausa"
+      },
+      {
+        "name": "Enugu & Southeastern States",
+        "capitalOrCity": "Enugu / Owerri",
+        "primaryLang": "Igbo"
+      },
+      {
+        "name": "Rivers & Niger Delta States",
+        "capitalOrCity": "Port Harcourt",
+        "primaryLang": "Nigerian Pidgin & Ijaw"
+      }
+    ]
+  },
+  "RW": {
+    "code": "RW",
+    "name": "Rwanda",
+    "nativeName": "Rwanda",
+    "capital": "Kigali",
+    "population": 13800000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Kinyarwanda",
+      "English",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "ST": {
+    "code": "ST",
+    "name": "Sao Tome and Principe",
+    "nativeName": "São Tomé e Príncipe",
+    "capital": "São Tomé",
+    "population": 227000,
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": [
+      "Portuguese",
+      "Forro Creole"
+    ],
+    "subdivisions": []
+  },
+  "SN": {
+    "code": "SN",
+    "name": "Senegal",
+    "nativeName": "Sénégal",
+    "capital": "Dakar",
+    "population": 17300000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "Wolof",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "SC": {
+    "code": "SC",
+    "name": "Seychelles",
+    "nativeName": "Sesel / Seychelles",
+    "capital": "Victoria",
+    "population": 100000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Seychellois Creole",
+      "English",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "SL": {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "nativeName": "Sierra Leone",
+    "capital": "Freetown",
+    "population": 8600000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "Krio",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "SO": {
+    "code": "SO",
+    "name": "Somalia",
+    "nativeName": "Soomaaliya / الصومال",
+    "capital": "Mogadishu",
+    "population": 17600000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Somali",
+      "Arabic"
+    ],
+    "subdivisions": []
+  },
+  "ZA": {
+    "code": "ZA",
+    "name": "South Africa",
+    "nativeName": "South Africa / Suid-Afrika / iNingizimu Afrika",
+    "capital": "Pretoria / Cape Town / Bloemfontein",
+    "population": 60600000,
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "isiZulu",
+      "isiXhosa",
+      "Afrikaans",
+      "English"
+    ],
+    "subdivisions": [
+      {
+        "name": "KwaZulu-Natal",
+        "capitalOrCity": "Pietermaritzburg / Durban",
+        "primaryLang": "isiZulu"
+      },
+      {
+        "name": "Gauteng",
+        "capitalOrCity": "Johannesburg / Pretoria",
+        "primaryLang": "isiZulu & English"
+      },
+      {
+        "name": "Western Cape",
+        "capitalOrCity": "Cape Town",
+        "primaryLang": "Afrikaans"
+      },
+      {
+        "name": "Eastern Cape",
+        "capitalOrCity": "Bhisho / Gqeberha",
+        "primaryLang": "isiXhosa"
+      },
+      {
+        "name": "Limpopo",
+        "capitalOrCity": "Polokwane",
+        "primaryLang": "Sepedi (Northern Sotho)"
+      },
+      {
+        "name": "Free State",
+        "capitalOrCity": "Bloemfontein",
+        "primaryLang": "Sesotho"
+      }
+    ]
+  },
+  "SS": {
+    "code": "SS",
+    "name": "South Sudan",
+    "nativeName": "South Sudan",
+    "capital": "Juba",
+    "population": 11100000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "English",
+      "Dinka",
+      "Juba Arabic"
+    ],
+    "subdivisions": []
+  },
+  "SD": {
+    "code": "SD",
+    "name": "Sudan",
+    "nativeName": "السودان",
+    "capital": "Khartoum",
+    "population": 45600000,
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": [
+      "Sudanese Arabic",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "TZ": {
+    "code": "TZ",
+    "name": "Tanzania",
+    "nativeName": "Tanzania",
+    "capital": "Dodoma",
+    "population": 65500000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "TG": {
+    "code": "TG",
+    "name": "Togo",
+    "nativeName": "Togo",
+    "capital": "Lomé",
+    "population": 8800000,
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": [
+      "French",
+      "Ewe (Éwé)",
+      "Kabiye"
+    ],
+    "subdivisions": []
+  },
+  "TN": {
+    "code": "TN",
+    "name": "Tunisia",
+    "nativeName": "تونس",
+    "capital": "Tunis",
+    "population": 12300000,
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": [
+      "Tunisian Arabic (Tounsi)",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "UG": {
+    "code": "UG",
+    "name": "Uganda",
+    "nativeName": "Uganda",
+    "capital": "Kampala",
+    "population": 47200000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "English",
+      "Swahili",
+      "Luganda"
+    ],
+    "subdivisions": []
+  },
+  "ZM": {
+    "code": "ZM",
+    "name": "Zambia",
+    "nativeName": "Zambia",
+    "capital": "Lusaka",
+    "population": 20000000,
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": [
+      "English",
+      "Bemba",
+      "Nyanja"
+    ],
+    "subdivisions": []
+  },
+  "ZW": {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "nativeName": "Zimbabwe",
+    "capital": "Harare",
+    "population": 16300000,
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "Shona",
+      "Ndebele",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "AG": {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "nativeName": "Antigua and Barbuda",
+    "capital": "St. John's",
+    "population": 93000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Antiguan Creole"
+    ],
+    "subdivisions": []
+  },
+  "AR": {
+    "code": "AR",
+    "name": "Argentina",
+    "nativeName": "Argentina",
+    "capital": "Buenos Aires",
+    "population": 45800000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Spanish (Rioplatense)",
+      "Guarani",
+      "Quechua"
+    ],
+    "subdivisions": []
+  },
+  "BS": {
+    "code": "BS",
+    "name": "Bahamas",
+    "nativeName": "The Bahamas",
+    "capital": "Nassau",
+    "population": 410000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Bahamian Creole"
+    ],
+    "subdivisions": []
+  },
+  "BB": {
+    "code": "BB",
+    "name": "Barbados",
+    "nativeName": "Barbados",
+    "capital": "Bridgetown",
+    "population": 281000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Bajan"
+    ],
+    "subdivisions": []
+  },
+  "BZ": {
+    "code": "BZ",
+    "name": "Belize",
+    "nativeName": "Belize",
+    "capital": "Belmopan",
+    "population": 405000,
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": [
+      "English",
+      "Spanish",
+      "Belizean Kriol",
+      "Garifuna"
+    ],
+    "subdivisions": []
+  },
+  "BO": {
+    "code": "BO",
+    "name": "Bolivia",
+    "nativeName": "Bolivia",
+    "capital": "Sucre / La Paz",
+    "population": 12100000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Spanish",
+      "Quechua",
+      "Aymara",
+      "Guarani"
+    ],
+    "subdivisions": []
+  },
+  "BR": {
+    "code": "BR",
+    "name": "Brazil",
+    "nativeName": "Brasil",
+    "capital": "Brasília",
+    "population": 215000000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Portuguese",
+      "Nheengatu"
+    ],
+    "subdivisions": []
+  },
+  "CA": {
+    "code": "CA",
+    "name": "Canada",
+    "nativeName": "Canada",
+    "capital": "Ottawa",
+    "population": 39500000,
+    "region": "Americas",
+    "subregion": "Northern America",
+    "languages": [
+      "English",
+      "French",
+      "Inuktitut"
+    ],
+    "subdivisions": [
+      {
+        "name": "Ontario",
+        "capitalOrCity": "Toronto / Ottawa",
+        "primaryLang": "English",
+        "secondaryLang": "French & Mandarin"
+      },
+      {
+        "name": "Quebec",
+        "capitalOrCity": "Quebec City / Montreal",
+        "primaryLang": "French",
+        "secondaryLang": "English"
+      },
+      {
+        "name": "British Columbia",
+        "capitalOrCity": "Victoria / Vancouver",
+        "primaryLang": "English",
+        "secondaryLang": "Punjabi & Cantonese"
+      },
+      {
+        "name": "Alberta",
+        "capitalOrCity": "Edmonton / Calgary",
+        "primaryLang": "English",
+        "secondaryLang": "Tagalog & Punjabi"
+      },
+      {
+        "name": "Manitoba",
+        "capitalOrCity": "Winnipeg",
+        "primaryLang": "English",
+        "secondaryLang": "Tagalog, German & Cree"
+      },
+      {
+        "name": "Saskatchewan",
+        "capitalOrCity": "Regina / Saskatoon",
+        "primaryLang": "English",
+        "secondaryLang": "Cree & Tagalog"
+      },
+      {
+        "name": "Nova Scotia",
+        "capitalOrCity": "Halifax",
+        "primaryLang": "English",
+        "secondaryLang": "French & Mi’kmaq / Gaelic"
+      },
+      {
+        "name": "New Brunswick",
+        "capitalOrCity": "Fredericton / Moncton",
+        "primaryLang": "Official Bilingual (English & French)",
+        "secondaryLang": "Acadian French"
+      },
+      {
+        "name": "Newfoundland and Labrador",
+        "capitalOrCity": "St. John’s",
+        "primaryLang": "English",
+        "secondaryLang": "Innu & French"
+      },
+      {
+        "name": "Prince Edward Island",
+        "capitalOrCity": "Charlottetown",
+        "primaryLang": "English",
+        "secondaryLang": "French"
+      },
+      {
+        "name": "Yukon Territory",
+        "capitalOrCity": "Whitehorse",
+        "primaryLang": "English",
+        "secondaryLang": "French & First Nations Languages"
+      },
+      {
+        "name": "Northwest Territories",
+        "capitalOrCity": "Yellowknife",
+        "primaryLang": "English",
+        "secondaryLang": "Dene & Inuvialuktun"
+      },
+      {
+        "name": "Nunavut Territory",
+        "capitalOrCity": "Iqaluit",
+        "primaryLang": "Inuktitut",
+        "secondaryLang": "English & Inuinnaqtun"
+      }
+    ]
+  },
+  "CL": {
+    "code": "CL",
+    "name": "Chile",
+    "nativeName": "Chile",
+    "capital": "Santiago",
+    "population": 19600000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Spanish",
+      "Mapudungun",
+      "Rapa Nui"
+    ],
+    "subdivisions": []
+  },
+  "CO": {
+    "code": "CO",
+    "name": "Colombia",
+    "nativeName": "Colombia",
+    "capital": "Bogotá",
+    "population": 51800000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Spanish",
+      "Wayuunaiki"
+    ],
+    "subdivisions": []
+  },
+  "CR": {
+    "code": "CR",
+    "name": "Costa Rica",
+    "nativeName": "Costa Rica",
+    "capital": "San José",
+    "population": 5200000,
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": [
+      "Spanish",
+      "Limón Creole (Mekatelyu)"
+    ],
+    "subdivisions": []
+  },
+  "CU": {
+    "code": "CU",
+    "name": "Cuba",
+    "nativeName": "Cuba",
+    "capital": "Havana",
+    "population": 11000000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "Spanish"
+    ],
+    "subdivisions": []
+  },
+  "DM": {
+    "code": "DM",
+    "name": "Dominica",
+    "nativeName": "Dominica",
+    "capital": "Roseau",
+    "population": 72000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Dominican Creole French"
+    ],
+    "subdivisions": []
+  },
+  "DO": {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "nativeName": "República Dominicana",
+    "capital": "Santo Domingo",
+    "population": 11200000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "Spanish"
+    ],
+    "subdivisions": []
+  },
+  "EC": {
+    "code": "EC",
+    "name": "Ecuador",
+    "nativeName": "Ecuador",
+    "capital": "Quito",
+    "population": 18000000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Spanish",
+      "Kichwa",
+      "Shuar"
+    ],
+    "subdivisions": []
+  },
+  "SV": {
+    "code": "SV",
+    "name": "El Salvador",
+    "nativeName": "El Salvador",
+    "capital": "San Salvador",
+    "population": 6300000,
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": [
+      "Spanish",
+      "Nawat (Pipil)"
+    ],
+    "subdivisions": []
+  },
+  "GD": {
+    "code": "GD",
+    "name": "Grenada",
+    "nativeName": "Grenada",
+    "capital": "St. George's",
+    "population": 125000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Grenadian Creole English"
+    ],
+    "subdivisions": []
+  },
+  "GT": {
+    "code": "GT",
+    "name": "Guatemala",
+    "nativeName": "Guatemala",
+    "capital": "Guatemala City",
+    "population": 17800000,
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": [
+      "Spanish",
+      "K'iche'",
+      "Kaqchikel",
+      "Q'eqchi'"
+    ],
+    "subdivisions": []
+  },
+  "GY": {
+    "code": "GY",
+    "name": "Guyana",
+    "nativeName": "Guyana",
+    "capital": "Georgetown",
+    "population": 800000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "English",
+      "Guyanese Creole"
+    ],
+    "subdivisions": []
+  },
+  "HT": {
+    "code": "HT",
+    "name": "Haiti",
+    "nativeName": "Haïti / Ayiti",
+    "capital": "Port-au-Prince",
+    "population": 11700000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "Haitian Creole",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "HN": {
+    "code": "HN",
+    "name": "Honduras",
+    "nativeName": "Honduras",
+    "capital": "Tegucigalpa",
+    "population": 10400000,
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": [
+      "Spanish",
+      "Garifuna"
+    ],
+    "subdivisions": []
+  },
+  "JM": {
+    "code": "JM",
+    "name": "Jamaica",
+    "nativeName": "Jamaica",
+    "capital": "Kingston",
+    "population": 2800000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ],
+    "subdivisions": []
+  },
+  "MX": {
+    "code": "MX",
+    "name": "Mexico",
+    "nativeName": "México",
+    "capital": "Mexico City",
+    "population": 128900000,
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": [
+      "Spanish",
+      "Nahuatl",
+      "Yucatec Maya"
+    ],
+    "subdivisions": []
+  },
+  "NI": {
+    "code": "NI",
+    "name": "Nicaragua",
+    "nativeName": "Nicaragua",
+    "capital": "Managua",
+    "population": 6900000,
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": [
+      "Spanish",
+      "Miskito"
+    ],
+    "subdivisions": []
+  },
+  "PA": {
+    "code": "PA",
+    "name": "Panama",
+    "nativeName": "Panamá",
+    "capital": "Panama City",
+    "population": 4400000,
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": [
+      "Spanish",
+      "Ngäbere",
+      "Kuna"
+    ],
+    "subdivisions": []
+  },
+  "PY": {
+    "code": "PY",
+    "name": "Paraguay",
+    "nativeName": "Paraguay",
+    "capital": "Asunción",
+    "population": 7400000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Guarani",
+      "Spanish"
+    ],
+    "subdivisions": [
+      {
+        "name": "Asunción Capital Metro",
+        "capitalOrCity": "Asunción",
+        "primaryLang": "Jopará (Guaraní-Spanish Code-Switching)"
+      },
+      {
+        "name": "Itapúa & San Pedro Departments",
+        "capitalOrCity": "Encarnación",
+        "primaryLang": "Guaraní"
+      }
+    ]
+  },
+  "PE": {
+    "code": "PE",
+    "name": "Peru",
+    "nativeName": "Perú",
+    "capital": "Lima",
+    "population": 33700000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Spanish",
+      "Quechua",
+      "Aymara"
+    ],
+    "subdivisions": []
+  },
+  "KN": {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "nativeName": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "population": 48000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "LC": {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "nativeName": "Saint Lucia",
+    "capital": "Castries",
+    "population": 180000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Saint Lucian Creole French"
+    ],
+    "subdivisions": []
+  },
+  "VC": {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "nativeName": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "population": 104000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Vincentian Creole"
+    ],
+    "subdivisions": []
+  },
+  "SR": {
+    "code": "SR",
+    "name": "Suriname",
+    "nativeName": "Suriname",
+    "capital": "Paramaribo",
+    "population": 618000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Dutch",
+      "Sranan Tongo",
+      "Caribbean Hindustani"
+    ],
+    "subdivisions": []
+  },
+  "TT": {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "nativeName": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "population": 1530000,
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": [
+      "English",
+      "Trinidadian Creole"
+    ],
+    "subdivisions": []
+  },
+  "US": {
+    "code": "US",
+    "name": "United States",
+    "nativeName": "United States",
+    "capital": "Washington, D.C.",
+    "population": 335000000,
+    "region": "Americas",
+    "subregion": "Northern America",
+    "languages": [
+      "English",
+      "Spanish",
+      "Chinese (Mandarin/Cantonese)"
+    ],
+    "subdivisions": [
+      {
+        "name": "Alabama",
+        "capitalOrCity": "Montgomery / Birmingham",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish"
+      },
+      {
+        "name": "Alaska",
+        "capitalOrCity": "Juneau / Anchorage",
+        "primaryLang": "English",
+        "secondaryLang": "Alaska Native Languages & Tagalog"
+      },
+      {
+        "name": "Arizona",
+        "capitalOrCity": "Phoenix",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Navajo"
+      },
+      {
+        "name": "Arkansas",
+        "capitalOrCity": "Little Rock",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Marshallese"
+      },
+      {
+        "name": "California",
+        "capitalOrCity": "Sacramento / Los Angeles",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Chinese"
+      },
+      {
+        "name": "Colorado",
+        "capitalOrCity": "Denver",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish"
+      },
+      {
+        "name": "Connecticut",
+        "capitalOrCity": "Hartford / Bridgeport",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Portuguese"
+      },
+      {
+        "name": "Delaware",
+        "capitalOrCity": "Dover / Wilmington",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Haitian Creole"
+      },
+      {
+        "name": "District of Columbia",
+        "capitalOrCity": "Washington, D.C.",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Amharic"
+      },
+      {
+        "name": "Florida",
+        "capitalOrCity": "Tallahassee / Miami",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Haitian Creole"
+      },
+      {
+        "name": "Georgia",
+        "capitalOrCity": "Atlanta",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Korean"
+      },
+      {
+        "name": "Hawaii",
+        "capitalOrCity": "Honolulu",
+        "primaryLang": "English",
+        "secondaryLang": "Hawaiian & Hawaiian Pidgin"
+      },
+      {
+        "name": "Idaho",
+        "capitalOrCity": "Boise",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Basque"
+      },
+      {
+        "name": "Illinois",
+        "capitalOrCity": "Springfield / Chicago",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Polish"
+      },
+      {
+        "name": "Indiana",
+        "capitalOrCity": "Indianapolis",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & German / Burmese"
+      },
+      {
+        "name": "Iowa",
+        "capitalOrCity": "Des Moines",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Bosnian / Vietnamese"
+      },
+      {
+        "name": "Kansas",
+        "capitalOrCity": "Topeka / Wichita",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Vietnamese"
+      },
+      {
+        "name": "Kentucky",
+        "capitalOrCity": "Frankfort / Louisville",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & German"
+      },
+      {
+        "name": "Louisiana",
+        "capitalOrCity": "Baton Rouge / New Orleans",
+        "primaryLang": "English",
+        "secondaryLang": "Louisiana French & Cajun French"
+      },
+      {
+        "name": "Maine",
+        "capitalOrCity": "Augusta / Portland",
+        "primaryLang": "English",
+        "secondaryLang": "French & Somali"
+      },
+      {
+        "name": "Maryland",
+        "capitalOrCity": "Annapolis / Baltimore",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & African Languages"
+      },
+      {
+        "name": "Massachusetts",
+        "capitalOrCity": "Boston",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Portuguese"
+      },
+      {
+        "name": "Michigan",
+        "capitalOrCity": "Lansing / Detroit",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Arabic"
+      },
+      {
+        "name": "Minnesota",
+        "capitalOrCity": "St. Paul / Minneapolis",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish, Somali & Hmong"
+      },
+      {
+        "name": "Mississippi",
+        "capitalOrCity": "Jackson",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Choctaw"
+      },
+      {
+        "name": "Missouri",
+        "capitalOrCity": "Jefferson City / Kansas City",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Bosnian"
+      },
+      {
+        "name": "Montana",
+        "capitalOrCity": "Helena / Billings",
+        "primaryLang": "English",
+        "secondaryLang": "Native American Languages & German"
+      },
+      {
+        "name": "Nebraska",
+        "capitalOrCity": "Lincoln / Omaha",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Karen / Vietnamese"
+      },
+      {
+        "name": "Nevada",
+        "capitalOrCity": "Carson City / Las Vegas",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Tagalog"
+      },
+      {
+        "name": "New Hampshire",
+        "capitalOrCity": "Concord / Manchester",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & French"
+      },
+      {
+        "name": "New Jersey",
+        "capitalOrCity": "Trenton / Newark",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & South Asian Languages"
+      },
+      {
+        "name": "New Mexico",
+        "capitalOrCity": "Santa Fe / Albuquerque",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Navajo"
+      },
+      {
+        "name": "New York",
+        "capitalOrCity": "Albany / New York City",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish, Chinese & Russian"
+      },
+      {
+        "name": "North Carolina",
+        "capitalOrCity": "Raleigh / Charlotte",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish"
+      },
+      {
+        "name": "North Dakota",
+        "capitalOrCity": "Bismarck / Fargo",
+        "primaryLang": "English",
+        "secondaryLang": "German & Native American"
+      },
+      {
+        "name": "Ohio",
+        "capitalOrCity": "Columbus",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Somali / Arabic"
+      },
+      {
+        "name": "Oklahoma",
+        "capitalOrCity": "Oklahoma City",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Cherokee / Choctaw"
+      },
+      {
+        "name": "Oregon",
+        "capitalOrCity": "Salem / Portland",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Russian / Vietnamese"
+      },
+      {
+        "name": "Pennsylvania",
+        "capitalOrCity": "Harrisburg / Philadelphia",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Pennsylvania Dutch (German)"
+      },
+      {
+        "name": "Puerto Rico (Territory)",
+        "capitalOrCity": "San Juan",
+        "primaryLang": "Spanish",
+        "secondaryLang": "English"
+      },
+      {
+        "name": "Rhode Island",
+        "capitalOrCity": "Providence",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Portuguese"
+      },
+      {
+        "name": "South Carolina",
+        "capitalOrCity": "Columbia / Charleston",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Gullah"
+      },
+      {
+        "name": "South Dakota",
+        "capitalOrCity": "Pierre / Sioux Falls",
+        "primaryLang": "English",
+        "secondaryLang": "Dakota / Lakota & Spanish"
+      },
+      {
+        "name": "Tennessee",
+        "capitalOrCity": "Nashville",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Kurdish"
+      },
+      {
+        "name": "Texas",
+        "capitalOrCity": "Austin / Houston",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish"
+      },
+      {
+        "name": "Utah",
+        "capitalOrCity": "Salt Lake City",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Pacific Islander Languages"
+      },
+      {
+        "name": "Vermont",
+        "capitalOrCity": "Montpelier / Burlington",
+        "primaryLang": "English",
+        "secondaryLang": "French & Spanish"
+      },
+      {
+        "name": "Virginia",
+        "capitalOrCity": "Richmond / Virginia Beach",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish, Korean & Vietnamese"
+      },
+      {
+        "name": "Washington",
+        "capitalOrCity": "Olympia / Seattle",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish, Chinese & Tagalog"
+      },
+      {
+        "name": "West Virginia",
+        "capitalOrCity": "Charleston",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & German"
+      },
+      {
+        "name": "Wisconsin",
+        "capitalOrCity": "Madison / Milwaukee",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Hmong"
+      },
+      {
+        "name": "Wyoming",
+        "capitalOrCity": "Cheyenne",
+        "primaryLang": "English",
+        "secondaryLang": "Spanish & Arapaho / Shoshone"
+      }
+    ]
+  },
+  "UY": {
+    "code": "UY",
+    "name": "Uruguay",
+    "nativeName": "Uruguay",
+    "capital": "Montevideo",
+    "population": 3420000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Spanish",
+      "Portuñol"
+    ],
+    "subdivisions": []
+  },
+  "VE": {
+    "code": "VE",
+    "name": "Venezuela",
+    "nativeName": "Venezuela",
+    "capital": "Caracas",
+    "population": 28800000,
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": [
+      "Spanish",
+      "Wayuu"
+    ],
+    "subdivisions": []
+  },
+  "AL": {
+    "code": "AL",
+    "name": "Albania",
+    "nativeName": "Shqipëria",
+    "capital": "Tirana",
+    "population": 2750000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Albanian",
+      "Greek"
+    ],
+    "subdivisions": []
+  },
+  "AD": {
+    "code": "AD",
+    "name": "Andorra",
+    "nativeName": "Andorra",
+    "capital": "Andorra la Vella",
+    "population": 80000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Catalan",
+      "Spanish"
+    ],
+    "subdivisions": []
+  },
+  "AT": {
+    "code": "AT",
+    "name": "Austria",
+    "nativeName": "Österreich",
+    "capital": "Vienna",
+    "population": 9100000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "German"
+    ],
+    "subdivisions": []
+  },
+  "BY": {
+    "code": "BY",
+    "name": "Belarus",
+    "nativeName": "Belaruś",
+    "capital": "Minsk",
+    "population": 9200000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Belarusian",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "BE": {
+    "code": "BE",
+    "name": "Belgium",
+    "nativeName": "België / Belgique",
+    "capital": "Brussels",
+    "population": 11700000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "subdivisions": [
+      {
+        "name": "Flanders (Flemish Region)",
+        "capitalOrCity": "Antwerp / Ghent / Bruges",
+        "primaryLang": "Dutch (Flemish)"
+      },
+      {
+        "name": "Wallonia (Walloon Region)",
+        "capitalOrCity": "Liège / Namur / Charleroi",
+        "primaryLang": "French"
+      },
+      {
+        "name": "Brussels-Capital Region",
+        "capitalOrCity": "Brussels",
+        "primaryLang": "French (Dominant)",
+        "secondaryLang": "Dutch (Officially co-equal)"
+      }
+    ]
+  },
+  "BA": {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "nativeName": "Bosna i Hercegovina",
+    "capital": "Sarajevo",
+    "population": 3200000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Bosnian",
+      "Serbian",
+      "Croatian"
+    ],
+    "subdivisions": []
+  },
+  "BG": {
+    "code": "BG",
+    "name": "Bulgaria",
+    "nativeName": "България",
+    "capital": "Sofia",
+    "population": 6400000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Bulgarian"
+    ],
+    "subdivisions": []
+  },
+  "HR": {
+    "code": "HR",
+    "name": "Croatia",
+    "nativeName": "Hrvatska",
+    "capital": "Zagreb",
+    "population": 3800000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Croatian"
+    ],
+    "subdivisions": []
+  },
+  "CY": {
+    "code": "CY",
+    "name": "Cyprus",
+    "nativeName": "Kýpros / Kıbrıs",
+    "capital": "Nicosia",
+    "population": 1200000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Greek",
+      "Turkish"
+    ],
+    "subdivisions": []
+  },
+  "CZ": {
+    "code": "CZ",
+    "name": "Czech Republic",
+    "nativeName": "Česko",
+    "capital": "Prague",
+    "population": 10800000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Czech"
+    ],
+    "subdivisions": []
+  },
+  "DK": {
+    "code": "DK",
+    "name": "Denmark",
+    "nativeName": "Danmark",
+    "capital": "Copenhagen",
+    "population": 5900000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Danish"
+    ],
+    "subdivisions": []
+  },
+  "EE": {
+    "code": "EE",
+    "name": "Estonia",
+    "nativeName": "Eesti",
+    "capital": "Tallinn",
+    "population": 1360000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Estonian"
+    ],
+    "subdivisions": []
+  },
+  "FI": {
+    "code": "FI",
+    "name": "Finland",
+    "nativeName": "Suomi",
+    "capital": "Helsinki",
+    "population": 5600000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Finnish",
+      "Swedish"
+    ],
+    "subdivisions": []
+  },
+  "FR": {
+    "code": "FR",
+    "name": "France",
+    "nativeName": "France",
+    "capital": "Paris",
+    "population": 68000000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "French"
+    ],
+    "subdivisions": [
+      {
+        "name": "Brittany (Bretagne)",
+        "capitalOrCity": "Rennes / Quimper",
+        "primaryLang": "French",
+        "secondaryLang": "Breton (Brezhoneg) & Gallo"
+      },
+      {
+        "name": "Alsace (Grand Est)",
+        "capitalOrCity": "Strasbourg",
+        "primaryLang": "French",
+        "secondaryLang": "Alsatian (Elsässisch German dialect)"
+      },
+      {
+        "name": "Corsica (Corse)",
+        "capitalOrCity": "Ajaccio / Bastia",
+        "primaryLang": "French",
+        "secondaryLang": "Corsican (Corsu)"
+      },
+      {
+        "name": "Occitanie (Southern France)",
+        "capitalOrCity": "Toulouse / Montpellier",
+        "primaryLang": "French",
+        "secondaryLang": "Occitan (Lengadòc / Provençal)"
+      }
+    ]
+  },
+  "DE": {
+    "code": "DE",
+    "name": "Germany",
+    "nativeName": "Deutschland",
+    "capital": "Berlin",
+    "population": 84300000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "German"
+    ],
+    "subdivisions": [
+      {
+        "name": "Bavaria (Bayern)",
+        "capitalOrCity": "Munich",
+        "primaryLang": "Standard German (Hochdeutsch)",
+        "secondaryLang": "Bavarian (Boarisch) dialect"
+      },
+      {
+        "name": "North Rhine-Westphalia",
+        "capitalOrCity": "Düsseldorf / Cologne",
+        "primaryLang": "German",
+        "secondaryLang": "Turkish & Polish"
+      },
+      {
+        "name": "Baden-Württemberg",
+        "capitalOrCity": "Stuttgart",
+        "primaryLang": "German",
+        "secondaryLang": "Swabian (Schwäbisch) & Alemannic"
+      },
+      {
+        "name": "Hesse (Hessen)",
+        "capitalOrCity": "Wiesbaden / Frankfurt",
+        "primaryLang": "German",
+        "secondaryLang": "Turkish & English"
+      },
+      {
+        "name": "Saxony (Sachsen)",
+        "capitalOrCity": "Dresden / Leipzig",
+        "primaryLang": "German",
+        "secondaryLang": "Upper Sorbian (Serbsce)"
+      },
+      {
+        "name": "Berlin State",
+        "capitalOrCity": "Berlin",
+        "primaryLang": "German",
+        "secondaryLang": "Turkish & English"
+      },
+      {
+        "name": "Lower Saxony (Niedersachsen)",
+        "capitalOrCity": "Hanover",
+        "primaryLang": "German",
+        "secondaryLang": "Low German (Plattdüütsch) & Saterland Frisian"
+      },
+      {
+        "name": "Schleswig-Holstein",
+        "capitalOrCity": "Kiel / Flensburg",
+        "primaryLang": "German",
+        "secondaryLang": "Danish, Low German & North Frisian"
+      },
+      {
+        "name": "Rhineland-Palatinate (Rheinland-Pfalz)",
+        "capitalOrCity": "Mainz",
+        "primaryLang": "German (Franconian Dialects)"
+      },
+      {
+        "name": "Brandenburg",
+        "capitalOrCity": "Potsdam",
+        "primaryLang": "German",
+        "secondaryLang": "Lower Sorbian (Dolnoserbski)"
+      }
+    ]
+  },
+  "GR": {
+    "code": "GR",
+    "name": "Greece",
+    "nativeName": "Ελλάδα",
+    "capital": "Athens",
+    "population": 10400000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Greek"
+    ],
+    "subdivisions": []
+  },
+  "HU": {
+    "code": "HU",
+    "name": "Hungary",
+    "nativeName": "Magyarország",
+    "capital": "Budapest",
+    "population": 9600000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Hungarian"
+    ],
+    "subdivisions": []
+  },
+  "IS": {
+    "code": "IS",
+    "name": "Iceland",
+    "nativeName": "Ísland",
+    "capital": "Reykjavík",
+    "population": 388000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Icelandic"
+    ],
+    "subdivisions": []
+  },
+  "IE": {
+    "code": "IE",
+    "name": "Ireland",
+    "nativeName": "Éire",
+    "capital": "Dublin",
+    "population": 5200000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Irish",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "IT": {
+    "code": "IT",
+    "name": "Italy",
+    "nativeName": "Italia",
+    "capital": "Rome",
+    "population": 58800000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Italian"
+    ],
+    "subdivisions": []
+  },
+  "XK": {
+    "code": "XK",
+    "name": "Kosovo",
+    "nativeName": "Kosova / Kosovo",
+    "capital": "Pristina",
+    "population": 1800000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Albanian",
+      "Serbian"
+    ],
+    "subdivisions": []
+  },
+  "LV": {
+    "code": "LV",
+    "name": "Latvia",
+    "nativeName": "Latvija",
+    "capital": "Riga",
+    "population": 1880000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Latvian"
+    ],
+    "subdivisions": []
+  },
+  "LI": {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "nativeName": "Liechtenstein",
+    "capital": "Vaduz",
+    "population": 39000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "German"
+    ],
+    "subdivisions": []
+  },
+  "LT": {
+    "code": "LT",
+    "name": "Lithuania",
+    "nativeName": "Lietuva",
+    "capital": "Vilnius",
+    "population": 2860000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Lithuanian"
+    ],
+    "subdivisions": []
+  },
+  "LU": {
+    "code": "LU",
+    "name": "Luxembourg",
+    "nativeName": "Lëtzebuerg",
+    "capital": "Luxembourg",
+    "population": 660000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "Luxembourgish",
+      "French",
+      "German"
+    ],
+    "subdivisions": []
+  },
+  "MT": {
+    "code": "MT",
+    "name": "Malta",
+    "nativeName": "Malta",
+    "capital": "Valletta",
+    "population": 530000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Maltese",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "MD": {
+    "code": "MD",
+    "name": "Moldova",
+    "nativeName": "Moldova",
+    "capital": "Chisinau",
+    "population": 2500000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Romanian"
+    ],
+    "subdivisions": []
+  },
+  "MC": {
+    "code": "MC",
+    "name": "Monaco",
+    "nativeName": "Monaco",
+    "capital": "Monaco",
+    "population": 39000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "French",
+      "Monégasque"
+    ],
+    "subdivisions": []
+  },
+  "ME": {
+    "code": "ME",
+    "name": "Montenegro",
+    "nativeName": "Crna Gora",
+    "capital": "Podgorica",
+    "population": 620000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Montenegrin"
+    ],
+    "subdivisions": []
+  },
+  "NL": {
+    "code": "NL",
+    "name": "Netherlands",
+    "nativeName": "Nederland",
+    "capital": "Amsterdam",
+    "population": 17800000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "Dutch",
+      "West Frisian"
+    ],
+    "subdivisions": []
+  },
+  "MK": {
+    "code": "MK",
+    "name": "North Macedonia",
+    "nativeName": "Severna Makedonija",
+    "capital": "Skopje",
+    "population": 1830000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Macedonian",
+      "Albanian"
+    ],
+    "subdivisions": []
+  },
+  "NO": {
+    "code": "NO",
+    "name": "Norway",
+    "nativeName": "Norge / Noreg",
+    "capital": "Oslo",
+    "population": 5500000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Norwegian Bokmål",
+      "Norwegian Nynorsk"
+    ],
+    "subdivisions": []
+  },
+  "PL": {
+    "code": "PL",
+    "name": "Poland",
+    "nativeName": "Polska",
+    "capital": "Warsaw",
+    "population": 36800000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Polish"
+    ],
+    "subdivisions": []
+  },
+  "PT": {
+    "code": "PT",
+    "name": "Portugal",
+    "nativeName": "Portugal",
+    "capital": "Lisbon",
+    "population": 10400000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Portuguese"
+    ],
+    "subdivisions": []
+  },
+  "RO": {
+    "code": "RO",
+    "name": "Romania",
+    "nativeName": "România",
+    "capital": "Bucharest",
+    "population": 19000000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Romanian"
+    ],
+    "subdivisions": []
+  },
+  "RU": {
+    "code": "RU",
+    "name": "Russia",
+    "nativeName": "Россия",
+    "capital": "Moscow",
+    "population": 144000000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "SM": {
+    "code": "SM",
+    "name": "San Marino",
+    "nativeName": "San Marino",
+    "capital": "San Marino",
+    "population": 34000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Italian"
+    ],
+    "subdivisions": []
+  },
+  "RS": {
+    "code": "RS",
+    "name": "Serbia",
+    "nativeName": "Srbija",
+    "capital": "Belgrade",
+    "population": 6600000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Serbian"
+    ],
+    "subdivisions": []
+  },
+  "SK": {
+    "code": "SK",
+    "name": "Slovakia",
+    "nativeName": "Slovensko",
+    "capital": "Bratislava",
+    "population": 5400000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Slovak"
+    ],
+    "subdivisions": []
+  },
+  "SI": {
+    "code": "SI",
+    "name": "Slovenia",
+    "nativeName": "Slovenija",
+    "capital": "Ljubljana",
+    "population": 2100000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Slovene"
+    ],
+    "subdivisions": []
+  },
+  "ES": {
+    "code": "ES",
+    "name": "Spain",
+    "nativeName": "España",
+    "capital": "Madrid",
+    "population": 47400000,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Spanish",
+      "Catalan",
+      "Galician",
+      "Basque"
+    ],
+    "subdivisions": [
+      {
+        "name": "Catalonia (Catalunya)",
+        "capitalOrCity": "Barcelona",
+        "primaryLang": "Catalan & Spanish (Castilian)"
+      },
+      {
+        "name": "Basque Country (Euskadi)",
+        "capitalOrCity": "Vitoria-Gasteiz / Bilbao",
+        "primaryLang": "Spanish",
+        "secondaryLang": "Basque (Euskara)"
+      },
+      {
+        "name": "Galicia",
+        "capitalOrCity": "Santiago de Compostela / A Coruña",
+        "primaryLang": "Galician (Galego) & Spanish"
+      },
+      {
+        "name": "Community of Madrid",
+        "capitalOrCity": "Madrid",
+        "primaryLang": "Spanish (Castilian)"
+      },
+      {
+        "name": "Andalusia (Andalucía)",
+        "capitalOrCity": "Seville",
+        "primaryLang": "Spanish (Andalusian dialect)"
+      },
+      {
+        "name": "Valencian Community",
+        "capitalOrCity": "Valencia",
+        "primaryLang": "Spanish & Valencian (Catalan)"
+      },
+      {
+        "name": "Balearic Islands (Illes Balears)",
+        "capitalOrCity": "Palma de Mallorca",
+        "primaryLang": "Catalan (Balearic) & Spanish"
+      },
+      {
+        "name": "Canary Islands (Canarias)",
+        "capitalOrCity": "Las Palmas / Santa Cruz",
+        "primaryLang": "Spanish (Canarian dialect)"
+      }
+    ]
+  },
+  "SE": {
+    "code": "SE",
+    "name": "Sweden",
+    "nativeName": "Sverige",
+    "capital": "Stockholm",
+    "population": 10500000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "Swedish"
+    ],
+    "subdivisions": []
+  },
+  "CH": {
+    "code": "CH",
+    "name": "Switzerland",
+    "nativeName": "Schweiz / Suisse / Svizzera / Svizra",
+    "capital": "Bern",
+    "population": 8800000,
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "subdivisions": [
+      {
+        "name": "Zurich (Zürich)",
+        "capitalOrCity": "Zurich",
+        "primaryLang": "German (Swiss German)"
+      },
+      {
+        "name": "Geneva (Genève)",
+        "capitalOrCity": "Geneva",
+        "primaryLang": "French"
+      },
+      {
+        "name": "Vaud",
+        "capitalOrCity": "Lausanne",
+        "primaryLang": "French"
+      },
+      {
+        "name": "Bern (Berne)",
+        "capitalOrCity": "Bern",
+        "primaryLang": "German",
+        "secondaryLang": "French"
+      },
+      {
+        "name": "Ticino",
+        "capitalOrCity": "Bellinzona",
+        "primaryLang": "Italian"
+      },
+      {
+        "name": "Graubünden (Grisons)",
+        "capitalOrCity": "Chur",
+        "primaryLang": "German",
+        "secondaryLang": "Romansh & Italian"
+      },
+      {
+        "name": "Fribourg (Freiburg)",
+        "capitalOrCity": "Fribourg",
+        "primaryLang": "French",
+        "secondaryLang": "German"
+      },
+      {
+        "name": "Valais (Wallis)",
+        "capitalOrCity": "Sion",
+        "primaryLang": "French",
+        "secondaryLang": "German (Highest dialect variation)"
+      },
+      {
+        "name": "Basel-Stadt & Basel-Landschaft",
+        "capitalOrCity": "Basel",
+        "primaryLang": "German (Baseldytsch)"
+      },
+      {
+        "name": "Lucerne (Luzern)",
+        "capitalOrCity": "Lucerne",
+        "primaryLang": "German (Swiss German)"
+      },
+      {
+        "name": "St. Gallen",
+        "capitalOrCity": "St. Gallen",
+        "primaryLang": "German"
+      },
+      {
+        "name": "Neuchâtel",
+        "capitalOrCity": "Neuchâtel",
+        "primaryLang": "French"
+      }
+    ]
+  },
+  "UA": {
+    "code": "UA",
+    "name": "Ukraine",
+    "nativeName": "Україна",
+    "capital": "Kyiv",
+    "population": 38000000,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": [
+      "Ukrainian"
+    ],
+    "subdivisions": []
+  },
+  "GB": {
+    "code": "GB",
+    "name": "United Kingdom",
+    "nativeName": "United Kingdom",
+    "capital": "London",
+    "population": 67000000,
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": [
+      "English",
+      "Welsh"
+    ],
+    "subdivisions": [
+      {
+        "name": "Wales (Cymru)",
+        "capitalOrCity": "Cardiff",
+        "primaryLang": "English",
+        "secondaryLang": "Welsh (Cymraeg)"
+      },
+      {
+        "name": "Scotland (Alba)",
+        "capitalOrCity": "Edinburgh / Glasgow",
+        "primaryLang": "English",
+        "secondaryLang": "Scots & Scottish Gaelic (Gàidhlig)"
+      },
+      {
+        "name": "Northern Ireland (Tuaisceart Éireann)",
+        "capitalOrCity": "Belfast",
+        "primaryLang": "English",
+        "secondaryLang": "Irish (Gaeilge) & Ulster Scots"
+      },
+      {
+        "name": "England",
+        "capitalOrCity": "London",
+        "primaryLang": "English"
+      }
+    ]
+  },
+  "VA": {
+    "code": "VA",
+    "name": "Vatican City",
+    "nativeName": "Civitas Vaticana",
+    "capital": "Vatican City",
+    "population": 800,
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": [
+      "Latin",
+      "Italian"
+    ],
+    "subdivisions": []
+  },
+  "AF": {
+    "code": "AF",
+    "name": "Afghanistan",
+    "nativeName": "افغانستان",
+    "capital": "Kabul",
+    "population": 41100000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Pashto",
+      "Dari (Persian)",
+      "Uzbek"
+    ],
+    "subdivisions": []
+  },
+  "AM": {
+    "code": "AM",
+    "name": "Armenia",
+    "nativeName": "Հայաստան",
+    "capital": "Yerevan",
+    "population": 2780000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Armenian",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "AZ": {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "nativeName": "Azərbaycan",
+    "capital": "Baku",
+    "population": 10100000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Azerbaijani",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "BH": {
+    "code": "BH",
+    "name": "Bahrain",
+    "nativeName": "البحرين",
+    "capital": "Manama",
+    "population": 1500000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Bahrani)",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "BD": {
+    "code": "BD",
+    "name": "Bangladesh",
+    "nativeName": "বাংলাদেশ",
+    "capital": "Dhaka",
+    "population": 171000000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Bengali",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "BT": {
+    "code": "BT",
+    "name": "Bhutan",
+    "nativeName": "འབྲུག་ཡུལ",
+    "capital": "Thimphu",
+    "population": 780000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Dzongkha",
+      "Nepali"
+    ],
+    "subdivisions": []
+  },
+  "BN": {
+    "code": "BN",
+    "name": "Brunei",
+    "nativeName": "Brunei Darussalam",
+    "capital": "Bandar Seri Begawan",
+    "population": 450000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Malay (Brunei)",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "KH": {
+    "code": "KH",
+    "name": "Cambodia",
+    "nativeName": "កម្ពុជា",
+    "capital": "Phnom Penh",
+    "population": 16800000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Khmer",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "CN": {
+    "code": "CN",
+    "name": "China",
+    "nativeName": "中国",
+    "capital": "Beijing",
+    "population": 1410000000,
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": [
+      "Mandarin Chinese",
+      "Cantonese",
+      "Uyghur",
+      "Tibetan"
+    ],
+    "subdivisions": []
+  },
+  "GE": {
+    "code": "GE",
+    "name": "Georgia",
+    "nativeName": "საქართველო",
+    "capital": "Tbilisi",
+    "population": 3700000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Georgian",
+      "Abkhazian"
+    ],
+    "subdivisions": []
+  },
+  "IN": {
+    "code": "IN",
+    "name": "India",
+    "nativeName": "भारत / India",
+    "capital": "New Delhi",
+    "population": 1420000000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Hindi",
+      "English",
+      "Bengali",
+      "Marathi",
+      "Telugu",
+      "Tamil"
+    ],
+    "subdivisions": [
+      {
+        "name": "Uttar Pradesh",
+        "capitalOrCity": "Lucknow",
+        "primaryLang": "Hindi",
+        "secondaryLang": "Urdu"
+      },
+      {
+        "name": "Tamil Nadu",
+        "capitalOrCity": "Chennai",
+        "primaryLang": "Tamil"
+      },
+      {
+        "name": "Maharashtra",
+        "capitalOrCity": "Mumbai",
+        "primaryLang": "Marathi",
+        "secondaryLang": "Hindi & Gujarati"
+      },
+      {
+        "name": "West Bengal",
+        "capitalOrCity": "Kolkata",
+        "primaryLang": "Bengali"
+      },
+      {
+        "name": "Kerala",
+        "capitalOrCity": "Thiruvananthapuram",
+        "primaryLang": "Malayalam"
+      },
+      {
+        "name": "Punjab",
+        "capitalOrCity": "Chandigarh / Amritsar",
+        "primaryLang": "Punjabi"
+      },
+      {
+        "name": "Gujarat",
+        "capitalOrCity": "Gandhinagar / Ahmedabad",
+        "primaryLang": "Gujarati"
+      },
+      {
+        "name": "Karnataka",
+        "capitalOrCity": "Bengaluru",
+        "primaryLang": "Kannada",
+        "secondaryLang": "Urdu, Telugu & Tamil"
+      }
+    ]
+  },
+  "ID": {
+    "code": "ID",
+    "name": "Indonesia",
+    "nativeName": "Indonesia",
+    "capital": "Jakarta / Nusantara",
+    "population": 275000000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Indonesian",
+      "Javanese",
+      "Sundanese"
+    ],
+    "subdivisions": []
+  },
+  "IR": {
+    "code": "IR",
+    "name": "Iran",
+    "nativeName": "ایران",
+    "capital": "Tehran",
+    "population": 88500000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Persian (Farsi)",
+      "Azeri Turkic",
+      "Kurdish"
+    ],
+    "subdivisions": []
+  },
+  "IQ": {
+    "code": "IQ",
+    "name": "Iraq",
+    "nativeName": "العراق / عێراق",
+    "capital": "Baghdad",
+    "population": 43500000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Mesopotamian)",
+      "Kurdish (Sorani/Kurmanji)"
+    ],
+    "subdivisions": []
+  },
+  "IL": {
+    "code": "IL",
+    "name": "Israel",
+    "nativeName": "ישראל / إسرائيل",
+    "capital": "Jerusalem",
+    "population": 9700000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Hebrew",
+      "Arabic",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "JP": {
+    "code": "JP",
+    "name": "Japan",
+    "nativeName": "日本",
+    "capital": "Tokyo",
+    "population": 124500000,
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": [
+      "Japanese",
+      "Ryukyuan"
+    ],
+    "subdivisions": []
+  },
+  "JO": {
+    "code": "JO",
+    "name": "Jordan",
+    "nativeName": "الأردن",
+    "capital": "Amman",
+    "population": 11300000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Levantine)",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "KZ": {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "nativeName": "Қазақстан",
+    "capital": "Astana",
+    "population": 19800000,
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "KW": {
+    "code": "KW",
+    "name": "Kuwait",
+    "nativeName": "الكويت",
+    "capital": "Kuwait City",
+    "population": 4300000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Kuwaiti)",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "KG": {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "nativeName": "Кыргызстан",
+    "capital": "Bishkek",
+    "population": 7000000,
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "LA": {
+    "code": "LA",
+    "name": "Laos",
+    "nativeName": "ປະເທດລາວ",
+    "capital": "Vientiane",
+    "population": 7500000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Lao",
+      "French"
+    ],
+    "subdivisions": []
+  },
+  "LB": {
+    "code": "LB",
+    "name": "Lebanon",
+    "nativeName": "لبنان",
+    "capital": "Beirut",
+    "population": 5300000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Lebanese)",
+      "French",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "MY": {
+    "code": "MY",
+    "name": "Malaysia",
+    "nativeName": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "population": 33500000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Malay",
+      "English",
+      "Mandarin Chinese",
+      "Tamil"
+    ],
+    "subdivisions": []
+  },
+  "MV": {
+    "code": "MV",
+    "name": "Maldives",
+    "nativeName": "ދިވެހިރާއްޖެ",
+    "capital": "Malé",
+    "population": 520000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Dhivehi",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "MN": {
+    "code": "MN",
+    "name": "Mongolia",
+    "nativeName": "Монгол улс",
+    "capital": "Ulaanbaatar",
+    "population": 3400000,
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": [
+      "Mongolian"
+    ],
+    "subdivisions": []
+  },
+  "MM": {
+    "code": "MM",
+    "name": "Myanmar",
+    "nativeName": "မြန်မာ",
+    "capital": "Naypyidaw",
+    "population": 54000000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Burmese",
+      "Shan"
+    ],
+    "subdivisions": []
+  },
+  "NP": {
+    "code": "NP",
+    "name": "Nepal",
+    "nativeName": "नेपाल",
+    "capital": "Kathmandu",
+    "population": 30500000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Nepali",
+      "Maithili"
+    ],
+    "subdivisions": []
+  },
+  "KP": {
+    "code": "KP",
+    "name": "North Korea",
+    "nativeName": "조선민주주의인민공화국",
+    "capital": "Pyongyang",
+    "population": 26000000,
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": [
+      "Korean (Munhwaɔ)"
+    ],
+    "subdivisions": []
+  },
+  "OM": {
+    "code": "OM",
+    "name": "Oman",
+    "nativeName": "عُمان",
+    "capital": "Muscat",
+    "population": 4600000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Omani)",
+      "Swahili"
+    ],
+    "subdivisions": []
+  },
+  "PK": {
+    "code": "PK",
+    "name": "Pakistan",
+    "nativeName": "پاکستان",
+    "capital": "Islamabad",
+    "population": 240000000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Pashto",
+      "Sindhi"
+    ],
+    "subdivisions": []
+  },
+  "PS": {
+    "code": "PS",
+    "name": "Palestine",
+    "nativeName": "فلسطين",
+    "capital": "East Jerusalem / Ramallah",
+    "population": 5200000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Palestinian)",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "PH": {
+    "code": "PH",
+    "name": "Philippines",
+    "nativeName": "Pilipinas",
+    "capital": "Manila",
+    "population": 115000000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Filipino (Tagalog)",
+      "English",
+      "Cebuano",
+      "Ilocano"
+    ],
+    "subdivisions": []
+  },
+  "QA": {
+    "code": "QA",
+    "name": "Qatar",
+    "nativeName": "قطر",
+    "capital": "Doha",
+    "population": 2700000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Qatari)",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "SA": {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "nativeName": "المملكة العربية السعودية",
+    "capital": "Riyadh",
+    "population": 36400000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Najdi/Hejazi)",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "SG": {
+    "code": "SG",
+    "name": "Singapore",
+    "nativeName": "Singapore / 新加坡 / Singapura / சிங்கப்பூர்",
+    "capital": "Singapore",
+    "population": 5900000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "English",
+      "Mandarin Chinese",
+      "Malay",
+      "Tamil"
+    ],
+    "subdivisions": []
+  },
+  "KR": {
+    "code": "KR",
+    "name": "South Korea",
+    "nativeName": "대한민국",
+    "capital": "Seoul",
+    "population": 51700000,
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": [
+      "Korean",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "LK": {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "nativeName": "ශ්‍රී ලංකාව / இலங்கை",
+    "capital": "Sri Jayawardenepura Kotte",
+    "population": 22000000,
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": [
+      "Sinhala",
+      "Tamil",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "SY": {
+    "code": "SY",
+    "name": "Syria",
+    "nativeName": "سوريا",
+    "capital": "Damascus",
+    "population": 22000000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Syrian)",
+      "Kurdish"
+    ],
+    "subdivisions": []
+  },
+  "TW": {
+    "code": "TW",
+    "name": "Taiwan",
+    "nativeName": "臺灣 / 台灣",
+    "capital": "Taipei",
+    "population": 23400000,
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": [
+      "Mandarin Chinese",
+      "Taiwanese Hokkien"
+    ],
+    "subdivisions": []
+  },
+  "TJ": {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "nativeName": "Тоҷикистон",
+    "capital": "Dushanbe",
+    "population": 10000000,
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": [
+      "Tajik",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "TH": {
+    "code": "TH",
+    "name": "Thailand",
+    "nativeName": "ประเทศไทย",
+    "capital": "Bangkok",
+    "population": 71600000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Thai",
+      "Isan (Northeastern Thai)"
+    ],
+    "subdivisions": []
+  },
+  "TL": {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "nativeName": "Timor-Leste / Timór Lorosa'e",
+    "capital": "Dili",
+    "population": 1350000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Tetum",
+      "Portuguese"
+    ],
+    "subdivisions": []
+  },
+  "TR": {
+    "code": "TR",
+    "name": "Turkey",
+    "nativeName": "Türkiye",
+    "capital": "Ankara",
+    "population": 85300000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Turkish",
+      "Kurdish (Kurmanji)"
+    ],
+    "subdivisions": []
+  },
+  "TM": {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "nativeName": "Türkmenistan",
+    "capital": "Ashgabat",
+    "population": 6400000,
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": [
+      "Turkmen",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "AE": {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "nativeName": "الإمارات العربية المتحدة",
+    "capital": "Abu Dhabi",
+    "population": 9900000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Emirati)",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "UZ": {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "nativeName": "O'zbekiston",
+    "capital": "Tashkent",
+    "population": 36000000,
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "subdivisions": []
+  },
+  "VN": {
+    "code": "VN",
+    "name": "Vietnam",
+    "nativeName": "Việt Nam",
+    "capital": "Hanoi",
+    "population": 98500000,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": [
+      "Vietnamese"
+    ],
+    "subdivisions": []
+  },
+  "YE": {
+    "code": "YE",
+    "name": "Yemen",
+    "nativeName": "اليمن",
+    "capital": "Sana'a",
+    "population": 33700000,
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": [
+      "Arabic (Yemeni)",
+      "Soqotri"
+    ],
+    "subdivisions": []
+  },
+  "AU": {
+    "code": "AU",
+    "name": "Australia",
+    "nativeName": "Australia",
+    "capital": "Canberra",
+    "population": 26000000,
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": [
+      "English (Australian)",
+      "Mandarin Chinese"
+    ],
+    "subdivisions": [
+      {
+        "name": "New South Wales",
+        "capitalOrCity": "Sydney",
+        "primaryLang": "English",
+        "secondaryLang": "Mandarin, Arabic & Cantonese"
+      },
+      {
+        "name": "Victoria",
+        "capitalOrCity": "Melbourne",
+        "primaryLang": "English",
+        "secondaryLang": "Mandarin, Greek & Italian"
+      },
+      {
+        "name": "Queensland",
+        "capitalOrCity": "Brisbane / Gold Coast",
+        "primaryLang": "English",
+        "secondaryLang": "Mandarin & Spanish"
+      },
+      {
+        "name": "Western Australia",
+        "capitalOrCity": "Perth",
+        "primaryLang": "English",
+        "secondaryLang": "Mandarin & Italian"
+      },
+      {
+        "name": "South Australia",
+        "capitalOrCity": "Adelaide",
+        "primaryLang": "English",
+        "secondaryLang": "Italian & Mandarin"
+      },
+      {
+        "name": "Tasmania",
+        "capitalOrCity": "Hobart",
+        "primaryLang": "English",
+        "secondaryLang": "Mandarin & Nepali"
+      },
+      {
+        "name": "Australian Capital Territory",
+        "capitalOrCity": "Canberra",
+        "primaryLang": "English",
+        "secondaryLang": "Mandarin & Vietnamese"
+      },
+      {
+        "name": "Northern Territory",
+        "capitalOrCity": "Darwin / Alice Springs",
+        "primaryLang": "English",
+        "secondaryLang": "Aboriginal Languages (Kriol, Pitjantjatjara)"
+      }
+    ]
+  },
+  "FJ": {
+    "code": "FJ",
+    "name": "Fiji",
+    "nativeName": "Viti / फ़िजी",
+    "capital": "Suva",
+    "population": 930000,
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": [
+      "Fijian",
+      "Fiji Hindi",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "KI": {
+    "code": "KI",
+    "name": "Kiribati",
+    "nativeName": "Kiribati",
+    "capital": "Tarawa",
+    "population": 130000,
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": [
+      "Gilbertese",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "MH": {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "nativeName": "Aorōkin Mājeļ",
+    "capital": "Majuro",
+    "population": 42000,
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": [
+      "Marshallese",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "FM": {
+    "code": "FM",
+    "name": "Micronesia",
+    "nativeName": "Micronesia",
+    "capital": "Palikir",
+    "population": 114000,
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": [
+      "English",
+      "Chuukese"
+    ],
+    "subdivisions": []
+  },
+  "NR": {
+    "code": "NR",
+    "name": "Nauru",
+    "nativeName": "Naoero",
+    "capital": "Yaren",
+    "population": 12500,
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": [
+      "Nauruan",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "NZ": {
+    "code": "NZ",
+    "name": "New Zealand",
+    "nativeName": "Aotearoa",
+    "capital": "Wellington",
+    "population": 5120000,
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": [
+      "English (NZ)",
+      "Māori"
+    ],
+    "subdivisions": []
+  },
+  "PW": {
+    "code": "PW",
+    "name": "Palau",
+    "nativeName": "Belau",
+    "capital": "Ngerulmud",
+    "population": 18000,
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": [
+      "Palauan",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "PG": {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "nativeName": "Papua Niugini",
+    "capital": "Port Moresby",
+    "population": 10100000,
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": [
+      "Tok Pisin",
+      "English",
+      "Hiri Motu"
+    ],
+    "subdivisions": []
+  },
+  "WS": {
+    "code": "WS",
+    "name": "Samoa",
+    "nativeName": "Sāmoa",
+    "capital": "Apia",
+    "population": 220000,
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": [
+      "Samoan",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "SB": {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "nativeName": "Solomon Islands",
+    "capital": "Honiara",
+    "population": 720000,
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": [
+      "Pijin",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "TO": {
+    "code": "TO",
+    "name": "Tonga",
+    "nativeName": "Tonga",
+    "capital": "Nuku'alofa",
+    "population": 106000,
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": [
+      "Tongan",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "TV": {
+    "code": "TV",
+    "name": "Tuvalu",
+    "nativeName": "Tuvalu",
+    "capital": "Funafuti",
+    "population": 11200,
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": [
+      "Tuvaluan",
+      "English"
+    ],
+    "subdivisions": []
+  },
+  "VU": {
+    "code": "VU",
+    "name": "Vanuatu",
+    "nativeName": "Vanuatu",
+    "capital": "Port Vila",
+    "population": 320000,
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ],
+    "subdivisions": []
+  }
+}

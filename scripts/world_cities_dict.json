@@ -1,0 +1,1168 @@
+{
+  "US": [
+    [
+      "New York City",
+      "New York",
+      8335897,
+      "Financial Hub",
+      false,
+      "Global Banking, Media, Technology & Corporate HQ"
+    ],
+    [
+      "Los Angeles",
+      "California",
+      3822238,
+      "Tech Hub",
+      false,
+      "Entertainment, Media, Tech & Aerospace"
+    ],
+    [
+      "Chicago",
+      "Illinois",
+      2665039,
+      "Industrial & Port",
+      false,
+      "Financial Derivatives, Logistics & Manufacturing"
+    ],
+    [
+      "Houston",
+      "Texas",
+      2302878,
+      "Industrial & Port",
+      false,
+      "Energy & Oil Processing, Aerospace & Medical Research"
+    ],
+    [
+      "Phoenix",
+      "Arizona",
+      1644409,
+      "Regional Center",
+      false,
+      "Semiconductor Manufacturing, Finance & Healthcare"
+    ],
+    [
+      "Philadelphia",
+      "Pennsylvania",
+      1567258,
+      "Regional Center",
+      false,
+      "Healthcare, Higher Education, Biotech & Financial Services"
+    ],
+    [
+      "San Antonio",
+      "Texas",
+      1472909,
+      "Regional Center",
+      false,
+      "Military Defense, Cybersecurity & Healthcare"
+    ],
+    [
+      "San Diego",
+      "California",
+      1381162,
+      "Tech Hub",
+      false,
+      "Biotechnology, Defense Electronics & Wireless Tech"
+    ],
+    [
+      "Dallas",
+      "Texas",
+      1304379,
+      "Financial Hub",
+      false,
+      "Telecommunications, Banking & Supply Chain Logistics"
+    ],
+    [
+      "San Jose",
+      "California",
+      1013240,
+      "Tech Hub",
+      false,
+      "Silicon Valley Software Engineering & Hardware Innovation"
+    ],
+    [
+      "Austin",
+      "Texas",
+      974117,
+      "Tech Hub",
+      false,
+      "Software Development, AI Research & Semiconductor Design"
+    ],
+    [
+      "Jacksonville",
+      "Florida",
+      971319,
+      "Industrial & Port",
+      false,
+      "Maritime Logistics, Banking & Healthcare Services"
+    ],
+    [
+      "Fort Worth",
+      "Texas",
+      956709,
+      "Industrial & Port",
+      false,
+      "Aerospace Manufacturing, Rail Logistics & Defense"
+    ],
+    [
+      "Columbus",
+      "Ohio",
+      907971,
+      "Regional Center",
+      false,
+      "Retail Corporate HQ, E-Commerce Logistics & Education"
+    ],
+    [
+      "Indianapolis",
+      "Indiana",
+      880621,
+      "Regional Center",
+      false,
+      "Pharmaceuticals, Auto Racing Tech & Freight Logistics"
+    ],
+    [
+      "Charlotte",
+      "North Carolina",
+      897588,
+      "Financial Hub",
+      false,
+      "Commercial Banking, Energy & Fintech Services"
+    ],
+    [
+      "San Francisco",
+      "California",
+      808437,
+      "Tech Hub",
+      false,
+      "Venture Capital, Cloud Software & Artificial Intelligence"
+    ],
+    [
+      "Seattle",
+      "Washington",
+      749256,
+      "Tech Hub",
+      false,
+      "Cloud Computing, E-Commerce, Aerospace & Biotech"
+    ],
+    [
+      "Denver",
+      "Colorado",
+      713252,
+      "Regional Center",
+      false,
+      "Telecommunications, Aerospace & Renewable Energy"
+    ],
+    [
+      "Oklahoma City",
+      "Oklahoma",
+      681054,
+      "Regional Center",
+      false,
+      "Energy Exploration, Aviation & Logistics"
+    ],
+    [
+      "Nashville",
+      "Tennessee",
+      683622,
+      "Regional Center",
+      false,
+      "Healthcare Management, Music Industry & Automotive"
+    ],
+    [
+      "El Paso",
+      "Texas",
+      677456,
+      "Industrial & Port",
+      false,
+      "Cross-Border Trade, Electronics Assembly & Logistics"
+    ],
+    [
+      "Washington",
+      "District of Columbia",
+      671803,
+      "Capital",
+      true,
+      "Government Administration, Defense, Policy & Public Sector"
+    ],
+    [
+      "Las Vegas",
+      "Nevada",
+      656274,
+      "Regional Center",
+      false,
+      "Hospitality Management, Gaming Tech & Conventions"
+    ],
+    [
+      "Boston",
+      "Massachusetts",
+      650706,
+      "Tech Hub",
+      false,
+      "Biotech Research, Higher Education, Asset Management"
+    ],
+    [
+      "Portland",
+      "Oregon",
+      635067,
+      "Tech Hub",
+      false,
+      "Athletic Footwear Design, Clean Tech & Semiconductor FABs"
+    ],
+    [
+      "Louisville",
+      "Kentucky",
+      624444,
+      "Industrial & Port",
+      false,
+      "Air Cargo Logistics (UPS Worldport) & Manufacturing"
+    ],
+    [
+      "Memphis",
+      "Tennessee",
+      621056,
+      "Industrial & Port",
+      false,
+      "Global Express Logistics (FedEx Hub) & Agribusiness"
+    ],
+    [
+      "Detroit",
+      "Michigan",
+      620376,
+      "Industrial & Port",
+      false,
+      "Automotive Engineering, Electric Vehicles & Advanced Mfg"
+    ],
+    [
+      "Baltimore",
+      "Maryland",
+      569931,
+      "Industrial & Port",
+      false,
+      "Maritime Port Operations, Healthcare & Cybersecurity"
+    ],
+    [
+      "Milwaukee",
+      "Wisconsin",
+      563305,
+      "Industrial & Port",
+      false,
+      "Industrial Automation, Water Tech & Precision Machinery"
+    ],
+    [
+      "Albuquerque",
+      "New Mexico",
+      560274,
+      "Tech Hub",
+      false,
+      "National Laboratories, Directed Energy & Solar Tech"
+    ],
+    [
+      "Fresno",
+      "California",
+      545567,
+      "Regional Center",
+      false,
+      "Agribusiness, Food Processing & Irrigation Tech"
+    ],
+    [
+      "Tucson",
+      "Arizona",
+      546574,
+      "Tech Hub",
+      false,
+      "Optics & Photonics, Defense Missiles & Mining Tech"
+    ],
+    [
+      "Sacramento",
+      "California",
+      524943,
+      "Regional Center",
+      false,
+      "State Government, Clean Energy & Agricultural Tech"
+    ],
+    [
+      "Mesa",
+      "Arizona",
+      504258,
+      "Regional Center",
+      false,
+      "Aerospace Manufacturing, Education & Medical Tech"
+    ],
+    [
+      "Kansas City",
+      "Missouri",
+      508090,
+      "Regional Center",
+      false,
+      "Rail Freight Transportation, Animal Health & Engineering"
+    ],
+    [
+      "Atlanta",
+      "Georgia",
+      498715,
+      "Financial Hub",
+      false,
+      "Fintech, Telecommunications, Airline Hub & Logistics"
+    ],
+    [
+      "Omaha",
+      "Nebraska",
+      486051,
+      "Financial Hub",
+      false,
+      "Insurance, Agribusiness, Railroad Logistics & Finance"
+    ],
+    [
+      "Colorado Springs",
+      "Colorado",
+      478961,
+      "Tech Hub",
+      false,
+      "Cybersecurity, Space Command Defense & Optics"
+    ],
+    [
+      "Raleigh",
+      "North Carolina",
+      467592,
+      "Tech Hub",
+      false,
+      "Research Triangle Software, Life Sciences & AI"
+    ],
+    [
+      "Long Beach",
+      "California",
+      466742,
+      "Industrial & Port",
+      false,
+      "Container Port Operations, Commercial Aviation & Energy"
+    ],
+    [
+      "Virginia Beach",
+      "Virginia",
+      459470,
+      "Regional Center",
+      false,
+      "Naval Defense, Subsea Fiber Cables & Tourism"
+    ],
+    [
+      "Miami",
+      "Florida",
+      442241,
+      "Financial Hub",
+      false,
+      "Latin American Trade, Wealth Management & Real Estate"
+    ],
+    [
+      "Oakland",
+      "California",
+      440646,
+      "Industrial & Port",
+      false,
+      "Container Shipping Terminal, Clean Tech & Green Energy"
+    ],
+    [
+      "Minneapolis",
+      "Minnesota",
+      429954,
+      "Regional Center",
+      false,
+      "Medical Devices, Retail HQ & Food Processing"
+    ],
+    [
+      "Tulsa",
+      "Oklahoma",
+      413066,
+      "Regional Center",
+      false,
+      "Aviation Maintenance, Energy Trading & Cyber Tech"
+    ],
+    [
+      "Bakersfield",
+      "California",
+      403455,
+      "Industrial & Port",
+      false,
+      "Petroleum Extraction, Agribusiness & Logistics"
+    ],
+    [
+      "Tampa",
+      "Florida",
+      387050,
+      "Financial Hub",
+      false,
+      "Financial Back-Office, Cybersecurity & Defense Tech"
+    ],
+    [
+      "Arlington",
+      "Texas",
+      394266,
+      "Industrial & Port",
+      false,
+      "Automotive Assembly, Sports Management & Aerospace"
+    ]
+  ],
+  "GB": [
+    [
+      "London",
+      "Greater London",
+      8982000,
+      "Capital",
+      true,
+      "Global Finance, Fintech, Creative Media & Tech"
+    ],
+    [
+      "Birmingham",
+      "West Midlands",
+      1149000,
+      "Industrial & Port",
+      false,
+      "Advanced Engineering, Automotive & Financial Services"
+    ],
+    [
+      "Glasgow",
+      "Scotland",
+      635640,
+      "Regional Center",
+      false,
+      "Shipbuilding, Satellite Tech & Renewable Energy"
+    ],
+    [
+      "Manchester",
+      "North West",
+      553230,
+      "Tech Hub",
+      false,
+      "Digital Media, E-Commerce, Software & Graphene Research"
+    ],
+    [
+      "Liverpool",
+      "North West",
+      498042,
+      "Industrial & Port",
+      false,
+      "Maritime Port, Life Sciences & Automotive Manufacturing"
+    ],
+    [
+      "Bristol",
+      "South West",
+      472400,
+      "Tech Hub",
+      false,
+      "Aerospace Engineering, Microelectronics & Robotics"
+    ],
+    [
+      "Edinburgh",
+      "Scotland",
+      527620,
+      "Financial Hub",
+      false,
+      "Asset Management, Banking, AI Research & Life Sciences"
+    ],
+    [
+      "Sheffield",
+      "Yorkshire",
+      584853,
+      "Industrial & Port",
+      false,
+      "Advanced Manufacturing, Precision Steel & Health Tech"
+    ],
+    [
+      "Leicester",
+      "East Midlands",
+      368600,
+      "Regional Center",
+      false,
+      "Textiles, Food Manufacturing & Space Science"
+    ],
+    [
+      "Coventry",
+      "West Midlands",
+      345300,
+      "Industrial & Port",
+      false,
+      "Electric Vehicle Design, Battery Tech & Automotive"
+    ],
+    [
+      "Bradford",
+      "Yorkshire",
+      539700,
+      "Regional Center",
+      false,
+      "Chemicals, Engineering, Textiles & E-Commerce"
+    ],
+    [
+      "Cardiff",
+      "Wales",
+      366900,
+      "Regional Center",
+      false,
+      "Financial Technology, Media Production & Life Sciences"
+    ],
+    [
+      "Belfast",
+      "Northern Ireland",
+      343542,
+      "Tech Hub",
+      false,
+      "Cybersecurity, Financial Services & Aerospace"
+    ],
+    [
+      "Nottingham",
+      "East Midlands",
+      331100,
+      "Tech Hub",
+      false,
+      "Pharmaceuticals, Clean Tech & Software Development"
+    ],
+    [
+      "Kingston upon Hull",
+      "Yorkshire",
+      259700,
+      "Industrial & Port",
+      false,
+      "Offshore Wind Energy, Chemicals & Maritime Logistics"
+    ],
+    [
+      "Newcastle upon Tyne",
+      "North East",
+      300100,
+      "Tech Hub",
+      false,
+      "Subsea Offshore Engineering, Gaming Tech & Software"
+    ],
+    [
+      "Stoke-on-Trent",
+      "West Midlands",
+      256300,
+      "Industrial & Port",
+      false,
+      "Advanced Ceramics, Logistics & Manufacturing"
+    ],
+    [
+      "Southampton",
+      "South East",
+      252522,
+      "Industrial & Port",
+      false,
+      "Deep-Sea Container Port, Marine Science & Cruise Hub"
+    ],
+    [
+      "Derby",
+      "East Midlands",
+      258700,
+      "Industrial & Port",
+      false,
+      "Rolls-Royce Aerospace, Rail Engineering & Power Systems"
+    ],
+    [
+      "Portsmouth",
+      "South East",
+      208100,
+      "Industrial & Port",
+      false,
+      "Naval Defense Engineering, Maritime Tech & Logistics"
+    ],
+    [
+      "Plymouth",
+      "South West",
+      264200,
+      "Industrial & Port",
+      false,
+      "Marine Technology, Naval Defense & Oceanography"
+    ],
+    [
+      "Northampton",
+      "East Midlands",
+      225100,
+      "Regional Center",
+      false,
+      "Logistics, Distribution Centers & Footwear Tech"
+    ],
+    [
+      "Reading",
+      "South East",
+      174200,
+      "Tech Hub",
+      false,
+      "Enterprise Software (Oracle, Microsoft), IT & Telecom"
+    ],
+    [
+      "Aberdeen",
+      "Scotland",
+      229060,
+      "Industrial & Port",
+      false,
+      "Subsea Energy Technology, Offshore Oil & Renewables"
+    ],
+    [
+      "Wolverhampton",
+      "West Midlands",
+      263700,
+      "Industrial & Port",
+      false,
+      "Aerospace Components, Engineering & Metal Fabrication"
+    ],
+    [
+      "Dundee",
+      "Scotland",
+      148820,
+      "Tech Hub",
+      false,
+      "Video Games Development, Life Sciences & Digital Media"
+    ],
+    [
+      "Luton",
+      "East Midlands",
+      213500,
+      "Industrial & Port",
+      false,
+      "Aviation Services, Airport Logistics & Automotive"
+    ],
+    [
+      "Swindon",
+      "South West",
+      222200,
+      "Industrial & Port",
+      false,
+      "Automotive Manufacturing, Pharmaceuticals & Insurance"
+    ],
+    [
+      "Warrington",
+      "North West",
+      210000,
+      "Tech Hub",
+      false,
+      "Nuclear Engineering, Power Services & Distribution"
+    ],
+    [
+      "York",
+      "Yorkshire",
+      211000,
+      "Regional Center",
+      false,
+      "Rail Technology, Agri-Tech, Biotechnology & Tourism"
+    ],
+    [
+      "Cambridge",
+      "East of England",
+      145700,
+      "Tech Hub",
+      false,
+      "Silicon Fen Biotech, AI Research & Semiconductor Design"
+    ],
+    [
+      "Oxford",
+      "South East",
+      152400,
+      "Tech Hub",
+      false,
+      "Life Sciences, Electric Vehicle R&D & Publishing"
+    ],
+    [
+      "Norwich",
+      "East of England",
+      143100,
+      "Regional Center",
+      false,
+      "Agri-Tech, Food Research, Insurance & Financial Services"
+    ],
+    [
+      "Exeter",
+      "South West",
+      130700,
+      "Regional Center",
+      false,
+      "Climate Data Analytics (Met Office) & FinTech"
+    ],
+    [
+      "Gloucester",
+      "South West",
+      129100,
+      "Regional Center",
+      false,
+      "Aviation Engineering, Nuclear Services & Insurance"
+    ],
+    [
+      "Ipswich",
+      "East of England",
+      136900,
+      "Industrial & Port",
+      false,
+      "Telecommunications R&D (Adastral Park) & Port Logistics"
+    ],
+    [
+      "Preston",
+      "North West",
+      141800,
+      "Industrial & Port",
+      false,
+      "BAE Systems Military Aircraft Manufacturing & Defense"
+    ],
+    [
+      "Sunderland",
+      "North East",
+      277400,
+      "Industrial & Port",
+      false,
+      "Nissan Automotive Plant, EV Battery Manufacturing"
+    ],
+    [
+      "Milton Keynes",
+      "South East",
+      287000,
+      "Tech Hub",
+      false,
+      "Logistics Automation, FinTech & Robotics Testing"
+    ],
+    [
+      "Swansea",
+      "Wales",
+      247000,
+      "Industrial & Port",
+      false,
+      "Subsea Tech, Metal Processing & Healthcare Research"
+    ],
+    [
+      "Peterborough",
+      "East of England",
+      202000,
+      "Regional Center",
+      false,
+      "E-Commerce Distribution, Agri-Food & Environmental Tech"
+    ],
+    [
+      "Blackpool",
+      "North West",
+      139000,
+      "Regional Center",
+      false,
+      "Tourism, Civil Service Administration & Aviation"
+    ],
+    [
+      "Bournemouth",
+      "South West",
+      194000,
+      "Financial Hub",
+      false,
+      "Financial Back-Office Services, Digital Media & Education"
+    ],
+    [
+      "Middlesbrough",
+      "North East",
+      140000,
+      "Industrial & Port",
+      false,
+      "Chemical Processing, Offshore Energy & Steel Fabrication"
+    ],
+    [
+      "Bolton",
+      "North West",
+      285000,
+      "Industrial & Port",
+      false,
+      "Manufacturing, Logistics & Healthcare Distribution"
+    ],
+    [
+      "Stockport",
+      "North West",
+      293000,
+      "Regional Center",
+      false,
+      "Financial Services, Digital Marketing & Manufacturing"
+    ],
+    [
+      "Colchester",
+      "East of England",
+      192000,
+      "Regional Center",
+      false,
+      "Military Garrison, Digital Tech & Educational Hub"
+    ],
+    [
+      "Telford",
+      "West Midlands",
+      175000,
+      "Industrial & Port",
+      false,
+      "Robotics Manufacturing, Automotive Plastics & Defense"
+    ],
+    [
+      "Huddersfield",
+      "Yorkshire",
+      162000,
+      "Industrial & Port",
+      false,
+      "Chemical Manufacturing, Textiles & Precision Engineering"
+    ],
+    [
+      "Brighton",
+      "South East",
+      290000,
+      "Tech Hub",
+      false,
+      "Silicon Beach Digital Media, Game Dev & Creative Industries"
+    ]
+  ],
+  "CA": [
+    [
+      "Toronto",
+      "Ontario",
+      2794356,
+      "Financial Hub",
+      false,
+      "Global Banking, Artificial Intelligence, FinTech & Media"
+    ],
+    [
+      "Montreal",
+      "Quebec",
+      1762949,
+      "Tech Hub",
+      false,
+      "AI Research, Video Game Development, Aerospace & BioTech"
+    ],
+    [
+      "Calgary",
+      "Alberta",
+      1306784,
+      "Industrial & Port",
+      false,
+      "Clean Energy, Oil & Gas HQ, Logistics & Financial Tech"
+    ],
+    [
+      "Ottawa",
+      "Ontario",
+      1017449,
+      "Capital",
+      true,
+      "Government Administration, Software Tech & Defense R&D"
+    ],
+    [
+      "Edmonton",
+      "Alberta",
+      1010899,
+      "Industrial & Port",
+      false,
+      "Petrochemical Refining, AI Research & Construction"
+    ],
+    [
+      "Winnipeg",
+      "Manitoba",
+      749607,
+      "Regional Center",
+      false,
+      "Agribusiness, Heavy Manufacturing, Aerospace & Transportation"
+    ],
+    [
+      "Vancouver",
+      "British Columbia",
+      662248,
+      "Tech Hub",
+      false,
+      "Software Development, Visual Effects, Clean Tech & Maritime Port"
+    ],
+    [
+      "Quebec City",
+      "Quebec",
+      549459,
+      "Regional Center",
+      false,
+      "Public Administration, Optics/Photonics, Bio-Health & Video Games"
+    ],
+    [
+      "Hamilton",
+      "Ontario",
+      569353,
+      "Industrial & Port",
+      false,
+      "Advanced Steel Manufacturing, Medical Sciences & Freight Port"
+    ],
+    [
+      "Kitchener",
+      "Ontario",
+      256885,
+      "Tech Hub",
+      false,
+      "Waterloo Tech Corridor Software, Robotics & FinTech"
+    ],
+    [
+      "London",
+      "Ontario",
+      422324,
+      "Regional Center",
+      false,
+      "Healthcare Research, Defense Vehicles, Insurance & Education"
+    ],
+    [
+      "Victoria",
+      "British Columbia",
+      91867,
+      "Regional Center",
+      false,
+      "Provincial Administration, Tech Startups & Marine Research"
+    ],
+    [
+      "Halifax",
+      "Nova Scotia",
+      439819,
+      "Industrial & Port",
+      false,
+      "Atlantic Maritime Logistics, Ocean Tech, Naval Defense & Finance"
+    ],
+    [
+      "Oshawa",
+      "Ontario",
+      166000,
+      "Industrial & Port",
+      false,
+      "Automotive Assembly (GM), Clean Energy & Logistics"
+    ],
+    [
+      "Windsor",
+      "Ontario",
+      229660,
+      "Industrial & Port",
+      false,
+      "Cross-Border Automotive Manufacturing & Electric Batteries"
+    ],
+    [
+      "Saskatoon",
+      "Saskatchewan",
+      266141,
+      "Regional Center",
+      false,
+      "Potash Mining Tech, Agribusiness Research & Bio-Science"
+    ],
+    [
+      "Regina",
+      "Saskatchewan",
+      226404,
+      "Regional Center",
+      false,
+      "Agricultural Grain Exports, Steel Manufacturing & Energy"
+    ],
+    [
+      "St. Catharines",
+      "Ontario",
+      136803,
+      "Regional Center",
+      false,
+      "Agri-Tech, Wine Production, Logistics & Advanced Mfg"
+    ],
+    [
+      "Barrie",
+      "Ontario",
+      147829,
+      "Regional Center",
+      false,
+      "Automotive Parts, Health Tech & Construction Services"
+    ],
+    [
+      "Kelowna",
+      "British Columbia",
+      142127,
+      "Tech Hub",
+      false,
+      "Okanagan Tech Hub, Agribusiness & Digital Media"
+    ],
+    [
+      "Abbotsford",
+      "British Columbia",
+      153524,
+      "Industrial & Port",
+      false,
+      "Agribusiness Processing, Aerospace Services & Freight Logistics"
+    ],
+    [
+      "Sudbury",
+      "Ontario",
+      166000,
+      "Industrial & Port",
+      false,
+      "Mining Innovation, Nickel/Copper Processing & Clean Tech"
+    ],
+    [
+      "Kingston",
+      "Ontario",
+      132410,
+      "Regional Center",
+      false,
+      "Higher Education, Health Sciences, Defense & Green Tech"
+    ],
+    [
+      "Saguenay",
+      "Quebec",
+      144746,
+      "Industrial & Port",
+      false,
+      "Aluminum Smelting, Forestry & Hydroelectric Energy"
+    ],
+    [
+      "Sherbrooke",
+      "Quebec",
+      172950,
+      "Tech Hub",
+      false,
+      "Quantum Computing, Microelectronics & Life Sciences"
+    ],
+    [
+      "Trois-Rivi\u00e8res",
+      "Quebec",
+      139163,
+      "Industrial & Port",
+      false,
+      "Pulp and Paper, Metals Processing & Innovation Hub"
+    ],
+    [
+      "Guelph",
+      "Ontario",
+      135113,
+      "Tech Hub",
+      false,
+      "Agri-Food Bio-Technology, Environmental Engineering & IT"
+    ],
+    [
+      "Moncton",
+      "New Brunswick",
+      71889,
+      "Regional Center",
+      false,
+      "BPO Call Centers, Transport Logistics, Tech & Healthcare"
+    ],
+    [
+      "Brantford",
+      "Ontario",
+      104688,
+      "Industrial & Port",
+      false,
+      "E-Commerce Distribution, Advanced Plastics & Food Mfg"
+    ],
+    [
+      "Saint John",
+      "New Brunswick",
+      69885,
+      "Industrial & Port",
+      false,
+      "Oil Refining (Irving), Deep-Water Port & Energy Export"
+    ],
+    [
+      "Thunder Bay",
+      "Ontario",
+      108843,
+      "Industrial & Port",
+      false,
+      "Grain Export Shipping, Mining Support & Forestry Tech"
+    ],
+    [
+      "Peterborough",
+      "Ontario",
+      83651,
+      "Regional Center",
+      false,
+      "Aerospace Components, Clean Technology & Higher Education"
+    ],
+    [
+      "Lethbridge",
+      "Alberta",
+      101482,
+      "Regional Center",
+      false,
+      "Irrigated Agricultural Trade, Food Processing & Research"
+    ],
+    [
+      "Nanaimo",
+      "British Columbia",
+      99863,
+      "Industrial & Port",
+      false,
+      "Forestry Products, Marine Services & Regional Healthcare"
+    ],
+    [
+      "Kamloops",
+      "British Columbia",
+      97902,
+      "Regional Center",
+      false,
+      "Forestry, Copper Mining Logistics & Transportation Hub"
+    ],
+    [
+      "Belleville",
+      "Ontario",
+      55071,
+      "Industrial & Port",
+      false,
+      "Plastics Manufacturing, Food Processing & Distribution"
+    ],
+    [
+      "Chatham-Kent",
+      "Ontario",
+      101647,
+      "Regional Center",
+      false,
+      "Agribusiness, Heavy Equipment & Renewable Solar/Wind"
+    ],
+    [
+      "Fredericton",
+      "New Brunswick",
+      63116,
+      "Tech Hub",
+      false,
+      "Provincial Governance, Cybersecurity R&D & Forestry Tech"
+    ],
+    [
+      "Saint-Jean-sur-Richelieu",
+      "Quebec",
+      98036,
+      "Industrial & Port",
+      false,
+      "Aerospace Components, Defense Training & Textiles"
+    ],
+    [
+      "Red Deer",
+      "Alberta",
+      100844,
+      "Regional Center",
+      false,
+      "Oilfield Equipment Services, Petrochemicals & Livestock"
+    ],
+    [
+      "Cape Breton",
+      "Nova Scotia",
+      93780,
+      "Regional Center",
+      false,
+      "Green Energy Transition, Maritime Trades & Call Centers"
+    ],
+    [
+      "Chilliwack",
+      "British Columbia",
+      93203,
+      "Regional Center",
+      false,
+      "Agricultural Processing, Manufacturing & Construction"
+    ],
+    [
+      "Whitehorse",
+      "Yukon",
+      28201,
+      "Capital",
+      true,
+      "Territorial Administration, Mining Services & Eco-Tourism"
+    ],
+    [
+      "Yellowknife",
+      "Northwest Territories",
+      20340,
+      "Capital",
+      true,
+      "Territorial Governance, Diamond Mining Support & Aviation"
+    ],
+    [
+      "Iqaluit",
+      "Nunavut",
+      7740,
+      "Capital",
+      true,
+      "Nunavut Governance, Arctic Logistics & Indigenous Craft"
+    ]
+  ]
+}
