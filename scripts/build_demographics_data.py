@@ -513,10 +513,15 @@ export interface LocationDemographics {{
   demographicHighlights: string[];
 }}
 
-export const DEMOGRAPHICS_DATASET: LocationDemographics[] = {json.dumps(dataset, indent=2)};
+import demographicsDataRaw from './demographicsData.json';
+
+export const DEMOGRAPHICS_DATASET: LocationDemographics[] = demographicsDataRaw as LocationDemographics[];
 """
+
+with open("src/data/demographicsData.json", "w") as f:
+    json.dump(dataset, f)
 
 with open("src/data/demographicsData.ts", "w") as f:
     f.write(out_ts)
 
-print("Successfully generated src/data/demographicsData.ts!")
+print("Successfully generated src/data/demographicsData.json and src/data/demographicsData.ts!")

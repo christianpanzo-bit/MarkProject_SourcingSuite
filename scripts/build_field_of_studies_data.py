@@ -515,11 +515,16 @@ export interface FieldOfStudyTopic {{
   countryData: CountryFieldData[];
 }}
 
-export const FIELD_OF_STUDIES_DATASET: FieldOfStudyTopic[] = {json.dumps(dataset)};
+import fieldOfStudiesRaw from './fieldOfStudiesData.json';
+
+export const FIELD_OF_STUDIES_DATASET: FieldOfStudyTopic[] = fieldOfStudiesRaw as FieldOfStudyTopic[];
 """
+
+with open("src/data/fieldOfStudiesData.json", "w") as f:
+    json.dump(dataset, f)
 
 with open("src/data/fieldOfStudiesData.ts", "w") as f:
     f.write(out_ts)
 
-print("Successfully wrote src/data/fieldOfStudiesData.ts!")
+print("Successfully wrote src/data/fieldOfStudiesData.json and src/data/fieldOfStudiesData.ts!")
 
