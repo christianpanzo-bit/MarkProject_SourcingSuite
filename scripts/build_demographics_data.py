@@ -519,7 +519,7 @@ export const DEMOGRAPHICS_DATASET: LocationDemographics[] = demographicsDataRaw 
 """
 
 with open("src/data/demographicsData.json", "w") as f:
-    json.dump(dataset, f)
+    json.dump(dataset, f, indent=2)
 
 with open("src/data/demographicsData.ts", "w") as f:
     f.write(out_ts)

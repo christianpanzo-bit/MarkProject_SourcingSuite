@@ -521,7 +521,7 @@ export const FIELD_OF_STUDIES_DATASET: FieldOfStudyTopic[] = fieldOfStudiesRaw a
 """
 
 with open("src/data/fieldOfStudiesData.json", "w") as f:
-    json.dump(dataset, f)
+    json.dump(dataset, f, indent=2)
 
 with open("src/data/fieldOfStudiesData.ts", "w") as f:
     f.write(out_ts)
