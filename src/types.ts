@@ -226,6 +226,7 @@ export interface CountryJobsData {
 export type ViewMode = 
   | 'explorer' 
   | 'jobs'
+  | 'skill_search'
   | 'fields_of_study'
   | 'demographics'
   | 'minimum_wage' 
@@ -236,3 +237,52 @@ export type ViewMode =
   | 'heatmap'
   | 'ai_assistant' 
   | 'quiz';
+
+export interface StateSkillBreakdown {
+  stateCode: string;
+  stateName: string;
+  capitalOrHub: string;
+  estimatedTalentPool: number;
+  estimatedTalentPoolFormatted: string;
+  demandLevel: 'Critical' | 'Very High' | 'High' | 'Moderate' | 'Steady';
+  averageSalaryUsd: string;
+  remoteAvailabilityPct: number;
+  sourcingComplexity: 'Low' | 'Medium' | 'High' | 'Extreme';
+  topIndustries: string[];
+  subSkills: string[];
+  keyHiringHubs: string[];
+}
+
+export interface CountrySkillData {
+  countryCode: string;
+  countryName: string;
+  flag: string;
+  region: Region;
+  totalTalentPool: number;
+  totalTalentPoolFormatted: string;
+  demandLevel: 'Critical' | 'Very High' | 'High' | 'Moderate' | 'Steady';
+  averageSalaryUsd: string;
+  remoteAvailabilityPct: number;
+  sourcingComplexity: 'Low' | 'Medium' | 'High' | 'Extreme';
+  englishProficiency: 'Native / Official' | 'Very High' | 'High' | 'Moderate' | 'Emerging';
+  topIndustries: string[];
+  topSubSkills: string[];
+  keyHiringHubs: string[];
+  sourcingNotes: string;
+  usStateBreakdown?: StateSkillBreakdown[];
+  auStateBreakdown?: StateSkillBreakdown[];
+  caProvinceBreakdown?: StateSkillBreakdown[];
+  ukNationBreakdown?: StateSkillBreakdown[];
+}
+
+export interface SkillItem {
+  id: string;
+  name: string;
+  category: string;
+  description: string;
+  globalDemandLevel: 'Critical' | 'Very High' | 'High' | 'Moderate';
+  commonJobTitles: string[];
+  keyFrameworks: string[];
+  countriesData: CountrySkillData[];
+}
+

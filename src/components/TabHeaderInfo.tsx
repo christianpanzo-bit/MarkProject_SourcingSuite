@@ -18,7 +18,8 @@ import {
   Building2,
   Users,
   Award,
-  GraduationCap
+  GraduationCap,
+  Zap
 } from 'lucide-react';
 
 interface TabHeaderInfoProps {
@@ -46,6 +47,17 @@ const TAB_DESCRIPTIONS: Record<ViewMode, { title: string; subtitle: string; icon
       'Review statutory labor law frameworks, standard work hours, and national labor codes',
       'Inspect remote/telework regulations, part-time protections, and GDPR candidate data rules',
       'Access verified official job portals and talent acquisition boards per country'
+    ]
+  },
+  skill_search: {
+    title: 'Skill Search & Sourcing Intelligence per Country',
+    subtitle: 'Search skills globally and inspect state-level talent pools for US, Australia, Canada, and UK.',
+    icon: Zap,
+    keyFeatures: [
+      'Search core skills across Software & Cloud, AI/ML, Cybersecurity, Healthcare, Design, and Finance',
+      'Examine total talent pool size, demand severity, average salary ranges, and remote availability',
+      'Subnational state breakdowns for all 50 US States + DC/PR, 8 Australian States, 13 Canadian Provinces, and 8 UK Regions',
+      'Side-by-side state comparison matrix and full CSV dataset export for talent intelligence'
     ]
   },
   fields_of_study: {

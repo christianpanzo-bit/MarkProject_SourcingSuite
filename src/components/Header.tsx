@@ -8,13 +8,13 @@ import {
   PieChart,
   Sparkles,
   HelpCircle,
-  Flame,
   Coins,
   Clock,
   Briefcase,
   ShieldCheck,
   GraduationCap,
-  Users
+  Users,
+  Zap
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -51,6 +51,12 @@ export const Header: React.FC<HeaderProps> = ({
       id: 'jobs',
       label: 'Jobs and Sourcing Data per Country',
       icon: Briefcase,
+    },
+    {
+      id: 'skill_search',
+      label: 'Skill Search per Country',
+      icon: Zap,
+      badge: 'US, AU, CA, UK States',
     },
     {
       id: 'fields_of_study',

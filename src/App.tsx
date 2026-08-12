@@ -12,6 +12,7 @@ import { TimeConverter } from './components/TimeConverter';
 import { CountryJobsExplorer } from './components/CountryJobsExplorer';
 import { FieldOfStudiesExplorer } from './components/FieldOfStudiesExplorer';
 import { DemographicsExplorer } from './components/DemographicsExplorer';
+import { SkillSearchExplorer } from './components/SkillSearchExplorer';
 import { AiTravelAssistant } from './components/AiTravelAssistant';
 import { QuizMode } from './components/QuizMode';
 import { CountryComparisonModal } from './components/CountryComparisonModal';
@@ -229,6 +230,9 @@ export default function App() {
 
           {/* VIEW 8: GLOBAL JOBS & EMPLOYMENT MARKET DATA */}
           {currentView === 'jobs' && <CountryJobsExplorer />}
+
+          {/* VIEW 8.2: SKILL SEARCH PER COUNTRY & STATE BREAKDOWN */}
+          {currentView === 'skill_search' && <SkillSearchExplorer />}
 
           {/* VIEW 8.5: FIELD OF STUDIES EXPLORER */}
           {currentView === 'fields_of_study' && <FieldOfStudiesExplorer />}
