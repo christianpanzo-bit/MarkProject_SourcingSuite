@@ -6,6 +6,27 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    json: {
+      stringify: true,
+    },
+    build: {
+      chunkSizeWarningLimit: 10000,
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('demographicsData.json')) {
+              return 'data-demographics';
+            }
+            if (id.includes('fieldOfStudiesData.json')) {
+              return 'data-field-of-studies';
+            }
+            if (id.includes('/src/data/')) {
+              return 'data-common';
+            }
+          },
+        },
+      },
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
