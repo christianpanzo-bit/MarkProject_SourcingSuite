@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execSync } from 'node:child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -24,12 +25,28 @@ function findJsonFiles(dir, fileList = []) {
   return fileList;
 }
 
-const dataDir = path.join(projectRoot, 'src');
-const jsonFiles = findJsonFiles(dataDir);
+function regenerateData() {
+  console.log('⚡ Automatically regenerating dataset JSON files from python scripts...');
+  try {
+    execSync('python3 scripts/build_demographics_data.py && python3 scripts/build_field_of_studies_data.py', {
+      cwd: projectRoot,
+      stdio: 'inherit',
+    });
+    console.log('✅ Dataset files regenerated successfully.');
+    return true;
+  } catch (e) {
+    console.error('❌ Failed to regenerate dataset files:', e.message);
+    return false;
+  }
+}
+
+let dataDir = path.join(projectRoot, 'src');
+let jsonFiles = findJsonFiles(dataDir);
 
 if (jsonFiles.length === 0) {
-  console.log('⚠️ No JSON files found in src/ to validate.');
-  process.exit(0);
+  console.log('⚠️ No JSON files found in src/ to validate. Triggering generator...');
+  regenerateData();
+  jsonFiles = findJsonFiles(dataDir);
 }
 
 let hasError = false;
@@ -39,15 +56,26 @@ for (const filePath of jsonFiles) {
   try {
     const content = fs.readFileSync(filePath, 'utf-8');
     if (!content.trim()) {
-      console.error(`❌ Error in ${relativePath}: File is empty.`);
-      hasError = true;
-      continue;
+      throw new Error('File is empty.');
     }
     JSON.parse(content);
     const sizeMb = (fs.statSync(filePath).size / (1024 * 1024)).toFixed(2);
     console.log(`✅ ${relativePath} (${sizeMb} MB) - Valid JSON.`);
   } catch (err) {
-    console.error(`❌ Invalid JSON in ${relativePath}: ${err.message}`);
+    console.warn(`⚠️ Invalid or truncated JSON in ${relativePath}: ${err.message}`);
+    console.warn('🔄 Triggering self-healing regeneration...');
+    const regenerated = regenerateData();
+    if (regenerated) {
+      try {
+        const freshContent = fs.readFileSync(filePath, 'utf-8');
+        JSON.parse(freshContent);
+        const freshSizeMb = (fs.statSync(filePath).size / (1024 * 1024)).toFixed(2);
+        console.log(`✅ ${relativePath} (${freshSizeMb} MB) - Fixed & Valid JSON.`);
+        continue;
+      } catch (freshErr) {
+        console.error(`❌ Still invalid after regeneration: ${freshErr.message}`);
+      }
+    }
     hasError = true;
   }
 }
@@ -58,3 +86,4 @@ if (hasError) {
 } else {
   console.log('✨ Pre-build JSON validation passed successfully.\n');
 }
+

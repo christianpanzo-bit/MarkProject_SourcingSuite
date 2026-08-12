@@ -81,6 +81,62 @@ export interface LocationDemographics {
   demographicHighlights: string[];
 }
 
+export function formatPop(val: number | undefined | null): string {
+  if (val == null || isNaN(val)) return '0';
+  if (val >= 1_000_000_000) return `${(val / 1_000_000_000).toFixed(2)} Billion`;
+  if (val >= 1_000_000) return `${(val / 1_000_000).toFixed(2)} Million`;
+  if (val >= 1_000) return `${(val / 1_000).toFixed(1)} Thousand`;
+  return val.toLocaleString();
+}
+
+function hydrateEmploymentStats(stats: any): EmploymentStats {
+  if (!stats) return {} as any;
+  return {
+    ...stats,
+    populationFormatted: formatPop(stats.population),
+    workingCountFormatted: formatPop(stats.workingCount),
+    fullTimeFormatted: formatPop(stats.fullTimeCount),
+    partTimeFormatted: formatPop(stats.partTimeCount),
+    multipleJobsFormatted: formatPop(stats.multipleJobsCount),
+  };
+}
+
+function hydrateLocation(loc: any): LocationDemographics {
+  const genderBreakdown = (loc.genderBreakdown || []).map((g: any) => ({
+    ...g,
+    countFormatted: formatPop(g.count),
+  }));
+
+  const ageBracketBreakdown = (loc.ageBracketBreakdown || []).map((ag: any) => ({
+    ...ag,
+    countFormatted: formatPop(ag.count),
+    employment: {
+      ...hydrateEmploymentStats(ag.employment),
+      byGender: {
+        Female: hydrateEmploymentStats(ag.employment?.byGender?.Female),
+        Male: hydrateEmploymentStats(ag.employment?.byGender?.Male),
+        'Non-Binary / Unspecified': hydrateEmploymentStats(ag.employment?.byGender?.['Non-Binary / Unspecified']),
+      },
+    },
+  }));
+
+  const overallEmployment = {
+    ...loc.overallEmployment,
+    totalWorkingInhabitantsFormatted: formatPop(loc.overallEmployment?.totalWorkingInhabitants),
+    totalFullTimeFormatted: formatPop(loc.overallEmployment?.totalFullTime),
+    totalPartTimeFormatted: formatPop(loc.overallEmployment?.totalPartTime),
+    totalMultipleJobsFormatted: formatPop(loc.overallEmployment?.totalMultipleJobs),
+  };
+
+  return {
+    ...loc,
+    totalPopulationFormatted: formatPop(loc.totalPopulation),
+    genderBreakdown,
+    ageBracketBreakdown,
+    overallEmployment,
+  };
+}
+
 import demographicsDataRaw from './demographicsData.json';
 
-export const DEMOGRAPHICS_DATASET: LocationDemographics[] = demographicsDataRaw as LocationDemographics[];
+export const DEMOGRAPHICS_DATASET: LocationDemographics[] = (demographicsDataRaw as any[]).map(hydrateLocation);

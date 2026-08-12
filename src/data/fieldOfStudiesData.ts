@@ -70,6 +70,62 @@ export interface FieldOfStudyTopic {
   countryData: CountryFieldData[];
 }
 
+export function formatPop(val: number | undefined | null): string {
+  if (val == null || isNaN(val)) return '0';
+  if (val >= 1_000_000_000) return `${(val / 1_000_000_000).toFixed(2)} Billion`;
+  if (val >= 1_000_000) return `${(val / 1_000_000).toFixed(2)} Million`;
+  if (val >= 1_000) return `${(val / 1_000).toFixed(1)} Thousand`;
+  return val.toLocaleString();
+}
+
+function hydrateGender(gb: any): GenderBreakdown {
+  return {
+    ...gb,
+    countFormatted: formatPop(gb.count),
+  };
+}
+
+function hydrateAge(ag: any): AgeBracketBreakdown {
+  return {
+    ...ag,
+    countFormatted: formatPop(ag.count),
+  };
+}
+
+function hydrateCountryField(c: any): CountryFieldData {
+  return {
+    ...c,
+    tertiaryEducatedFormatted: formatPop(c.tertiaryEducatedPopulation),
+    actualGraduatesFormatted: formatPop(c.actualGraduatesCount),
+    annualNewGraduatesFormatted: formatPop(c.annualNewGraduates),
+    genderBreakdown: (c.genderBreakdown || []).map(hydrateGender),
+    ageBracketBreakdown: (c.ageBracketBreakdown || []).map(hydrateAge),
+    usStateBreakdown: c.usStateBreakdown?.map((s: any) => ({
+      ...s,
+      tertiaryEducatedFormatted: formatPop(s.tertiaryEducatedPopulation),
+      actualGraduatesFormatted: formatPop(s.actualGraduatesCount),
+      annualNewGraduatesFormatted: formatPop(s.annualNewGraduates),
+      genderBreakdown: (s.genderBreakdown || []).map(hydrateGender),
+      ageBracketBreakdown: (s.ageBracketBreakdown || []).map(hydrateAge),
+    })),
+    canadaProvinceBreakdown: c.canadaProvinceBreakdown?.map((p: any) => ({
+      ...p,
+      tertiaryEducatedFormatted: formatPop(p.tertiaryEducatedPopulation),
+      actualGraduatesFormatted: formatPop(p.actualGraduatesCount),
+      annualNewGraduatesFormatted: formatPop(p.annualNewGraduates),
+      genderBreakdown: (p.genderBreakdown || []).map(hydrateGender),
+      ageBracketBreakdown: (p.ageBracketBreakdown || []).map(hydrateAge),
+    })),
+  };
+}
+
+function hydrateTopic(topic: any): FieldOfStudyTopic {
+  return {
+    ...topic,
+    countryData: (topic.countryData || []).map(hydrateCountryField),
+  };
+}
+
 import fieldOfStudiesRaw from './fieldOfStudiesData.json';
 
-export const FIELD_OF_STUDIES_DATASET: FieldOfStudyTopic[] = fieldOfStudiesRaw as FieldOfStudyTopic[];
+export const FIELD_OF_STUDIES_DATASET: FieldOfStudyTopic[] = (fieldOfStudiesRaw as any[]).map(hydrateTopic);

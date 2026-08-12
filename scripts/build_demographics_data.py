@@ -430,6 +430,16 @@ for code, info in sorted(countries_raw.items(), key=lambda x: x[1]['name']):
 
 print(f"Generated complete demographics dataset with {len(dataset)} entries!")
 
+def strip_formatted(obj):
+    if isinstance(obj, dict):
+        return {k: strip_formatted(v) for k, v in obj.items() if not k.endswith('Formatted')}
+    elif isinstance(obj, list):
+        return [strip_formatted(item) for item in obj]
+    else:
+        return obj
+
+clean_dataset = strip_formatted(dataset)
+
 out_ts = f"""export interface EmploymentStats {{
   population: number;
   populationFormatted: string;
@@ -513,15 +523,72 @@ export interface LocationDemographics {{
   demographicHighlights: string[];
 }}
 
+export function formatPop(val: number | undefined | null): string {{
+  if (val == null || isNaN(val)) return '0';
+  if (val >= 1_000_000_000) return `${{(val / 1_000_000_000).toFixed(2)}} Billion`;
+  if (val >= 1_000_000) return `${{(val / 1_000_000).toFixed(2)}} Million`;
+  if (val >= 1_000) return `${{(val / 1_000).toFixed(1)}} Thousand`;
+  return val.toLocaleString();
+}}
+
+function hydrateEmploymentStats(stats: any): EmploymentStats {{
+  if (!stats) return {{}} as any;
+  return {{
+    ...stats,
+    populationFormatted: formatPop(stats.population),
+    workingCountFormatted: formatPop(stats.workingCount),
+    fullTimeFormatted: formatPop(stats.fullTimeCount),
+    partTimeFormatted: formatPop(stats.partTimeCount),
+    multipleJobsFormatted: formatPop(stats.multipleJobsCount),
+  }};
+}}
+
+function hydrateLocation(loc: any): LocationDemographics {{
+  const genderBreakdown = (loc.genderBreakdown || []).map((g: any) => ({{
+    ...g,
+    countFormatted: formatPop(g.count),
+  }}));
+
+  const ageBracketBreakdown = (loc.ageBracketBreakdown || []).map((ag: any) => ({{
+    ...ag,
+    countFormatted: formatPop(ag.count),
+    employment: {{
+      ...hydrateEmploymentStats(ag.employment),
+      byGender: {{
+        Female: hydrateEmploymentStats(ag.employment?.byGender?.Female),
+        Male: hydrateEmploymentStats(ag.employment?.byGender?.Male),
+        'Non-Binary / Unspecified': hydrateEmploymentStats(ag.employment?.byGender?.['Non-Binary / Unspecified']),
+      }},
+    }},
+  }}));
+
+  const overallEmployment = {{
+    ...loc.overallEmployment,
+    totalWorkingInhabitantsFormatted: formatPop(loc.overallEmployment?.totalWorkingInhabitants),
+    totalFullTimeFormatted: formatPop(loc.overallEmployment?.totalFullTime),
+    totalPartTimeFormatted: formatPop(loc.overallEmployment?.totalPartTime),
+    totalMultipleJobsFormatted: formatPop(loc.overallEmployment?.totalMultipleJobs),
+  }};
+
+  return {{
+    ...loc,
+    totalPopulationFormatted: formatPop(loc.totalPopulation),
+    genderBreakdown,
+    ageBracketBreakdown,
+    overallEmployment,
+  }};
+}}
+
 import demographicsDataRaw from './demographicsData.json';
 
-export const DEMOGRAPHICS_DATASET: LocationDemographics[] = demographicsDataRaw as LocationDemographics[];
+export const DEMOGRAPHICS_DATASET: LocationDemographics[] = (demographicsDataRaw as any[]).map(hydrateLocation);
 """
 
 with open("src/data/demographicsData.json", "w") as f:
-    json.dump(dataset, f, indent=2)
+    json.dump(clean_dataset, f, indent=2)
 
 with open("src/data/demographicsData.ts", "w") as f:
     f.write(out_ts)
 
 print("Successfully generated src/data/demographicsData.json and src/data/demographicsData.ts!")
+
