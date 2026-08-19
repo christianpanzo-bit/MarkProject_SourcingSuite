@@ -227,6 +227,7 @@ export type ViewMode =
   | 'explorer' 
   | 'jobs'
   | 'skill_search'
+  | 'robotics'
   | 'fields_of_study'
   | 'demographics'
   | 'minimum_wage' 
@@ -237,6 +238,54 @@ export type ViewMode =
   | 'heatmap'
   | 'ai_assistant' 
   | 'quiz';
+
+export type InstitutionType = 'University / Academic Lab' | 'Public Research / Government' | 'Private R&D / Enterprise Manufacturer';
+
+export interface RoboticsInstitution {
+  id: string;
+  name: string;
+  type: InstitutionType;
+  cityOrState: string;
+  specialties: string[];
+  websiteUrl?: string;
+  description: string;
+  notableProjectsOrProducts?: string[];
+  fundingOrAffiliation?: string;
+}
+
+export interface StateRoboticsBreakdown {
+  stateCode: string;
+  stateName: string;
+  hubName: string;
+  roboticsDensityScore: number;
+  estimatedRoboticsCompanies: number;
+  institutionsCount: number;
+  keySpecializations: string[];
+  institutions: RoboticsInstitution[];
+}
+
+export interface CountryRoboticsData {
+  countryCode: string;
+  countryName: string;
+  flag: string;
+  region: Region;
+  subregion?: string;
+  globalRoboticsRank: number;
+  robotDensityPer10kWorkers: number;
+  operationalRobotStock: number;
+  operationalRobotStockFormatted: string;
+  annualInstallations: number;
+  annualInstallationsFormatted: string;
+  innovationIndexScore: number;
+  marketSizeUsd: string;
+  annualGrowthRatePct: number;
+  manufacturingFocus: 'World-Leading Producer' | 'Advanced Component Supplier' | 'High-Density Adopter' | 'Specialized Niche / Emerging Hub' | 'Consumer & Drones' | 'Agricultural / Mining Robotics' | 'Emerging Consumer Market';
+  primarySectors: string[];
+  keyStrengthsAndPolicies: string[];
+  institutions: RoboticsInstitution[];
+  subnationalBreakdown?: StateRoboticsBreakdown[];
+}
+
 
 export interface StateSkillBreakdown {
   stateCode: string;

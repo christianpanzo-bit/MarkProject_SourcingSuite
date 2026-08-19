@@ -1,6 +1,6 @@
 {
   "name": "Sourcing Help - Country Data",
-  "description": "Comprehensive global sourcing, country data, minimum wage directory across all 50 US states & provinces, demographics (age & gender) suite, time zone converter, and language intelligence suite.",
+  "description": "Comprehensive global sourcing, robotics manufacturing & adoption intelligence, institutional directory (schools, public & private labs), country data, minimum wage directory across all 50 US states, demographics suite, and time zone converter.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -14,7 +14,8 @@ import {
   ShieldCheck,
   GraduationCap,
   Users,
-  Zap
+  Zap,
+  Bot
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -57,6 +58,12 @@ export const Header: React.FC<HeaderProps> = ({
       label: 'Skill Search per Country',
       icon: Zap,
       badge: 'US, AU, CA, UK States',
+    },
+    {
+      id: 'robotics',
+      label: 'Robotics & Automation',
+      icon: Bot,
+      badge: '197 Countries & Labs',
     },
     {
       id: 'fields_of_study',

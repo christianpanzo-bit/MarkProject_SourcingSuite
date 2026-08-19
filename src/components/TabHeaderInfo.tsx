@@ -19,7 +19,8 @@ import {
   Users,
   Award,
   GraduationCap,
-  Zap
+  Zap,
+  Bot
 } from 'lucide-react';
 
 interface TabHeaderInfoProps {
@@ -58,6 +59,17 @@ const TAB_DESCRIPTIONS: Record<ViewMode, { title: string; subtitle: string; icon
       'Examine total talent pool size, demand severity, average salary ranges, and remote availability',
       'Subnational state breakdowns for all 50 US States + DC/PR, 8 Australian States, 13 Canadian Provinces, and 8 UK Regions',
       'Side-by-side state comparison matrix and full CSV dataset export for talent intelligence'
+    ]
+  },
+  robotics: {
+    title: 'Robotics Manufacturing, Innovation & Institutional Directory per Country',
+    subtitle: 'Track robot adoption density, operational stock, annual installations, and explore universities, public labs, and private manufacturers per country.',
+    icon: Bot,
+    keyFeatures: [
+      'Inspect robot density per 10,000 workers, operational robot stock, and annual installations across 197 UN countries',
+      'Explore participating academic universities, government defense labs, and private enterprise manufacturers per nation',
+      'Subnational cluster breakdowns for US states (Massachusetts, California, Pennsylvania, Michigan, Texas)',
+      'Searchable global institutional directory by research domain (Humanoid, Cobots, Surgery, AMRs, Vision) with CSV exports'
     ]
   },
   fields_of_study: {
